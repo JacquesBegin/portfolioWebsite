@@ -14,6 +14,10 @@
   color: #00becc;
 }
 
+#welcomePositive {
+  margin-top: 20px;
+}
+
 #homePortraitBorder {
   float: right;
   margin-top: 10px;
