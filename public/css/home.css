@@ -1,0 +1,55 @@
+
+#homeHeader {
+  padding: 10px;
+}
+
+#welcomeMessage {
+  clear: both;
+  font-size: 2em;
+  text-align: center;
+}
+
+#hello {
+  font-size: 3em;
+  color: #00becc;
+}
+
+#homePortraitBorder {
+  float: right;
+  margin-top: 10px;
+  margin-left: 40px;
+  padding: 3px;
+  background-color: #41d6c3;
+  border: 2px solid #3d70b2;
+  border-radius: 50%;
+}
+
+#jacquesHomePortrait {
+  display: block;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  #homeHeader {
+    
+  }
+
+  #welcomeMessage {
+    font-size: 1.5em;
+  }
+
+  #hello {
+    font-size: 2em;
+    color: #00becc;
+  }
+
+  
+
+  #homePortraitBorder {
+    float: left;
+    margin: 0;
+    height: 150px;
+    width: 150px;
+  }
+}

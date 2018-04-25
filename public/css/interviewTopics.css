@@ -1,0 +1,17 @@
+pre, code {
+  font-family: monospace, monospace;
+  font-size: .9em;
+}
+
+pre {
+  overflow: auto;
+  background-color: #C5D1EB;
+  border: 3px solid #3D70B2;
+  border-radius: 5px;
+}
+
+pre > code {
+  display: block;
+  padding: 1rem;
+  word-wrap: normal;
+}
