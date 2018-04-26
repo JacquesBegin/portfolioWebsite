@@ -1,6 +1,7 @@
 
 #homeHeader {
   padding: 10px;
+  margin-bottom: 40px;
 }
 
 #welcomeMessage {
@@ -16,6 +17,22 @@
 
 #welcomePositive {
   margin-top: 20px;
+}
+
+#homeContent {
+  margin: 20px;
+}
+
+.homeContentTitle {
+  color: #00becc;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.homeContentMessage {
+  margin-bottom: 30px;
+  color: #3f3f3f;
+  font-size: 1.25em;
 }
 
 #homePortraitBorder {
