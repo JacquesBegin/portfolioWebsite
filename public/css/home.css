@@ -57,6 +57,14 @@
   border-radius: 50%;
 }
 
+@media screen and (max-width: 1100px) {
+  .homeContentSections {
+    float: left;
+    width: 100%;
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 600px) {
   #homeHeader {
     
@@ -78,9 +86,5 @@
     width: 150px;
   }
 
-  .homeContentSections {
-    float: left;
-    width: 100%;
-    padding: 0;
-  }
+
 }
