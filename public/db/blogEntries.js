@@ -58,6 +58,84 @@ var databaseBlogEntries = [
     "date": "April 16, 2018",
     "message": "Early in the wee hours of this new day, the blog posts are finally loading dynamically from my temporary database file!!!! I am so happy and excited for the next challenge as I progress with the portfolio site! Now it is time for some much needed sleep before I continue along the path. Goodnight! :)",
     "signature": "-Jacques-"
+  },
+  {
+    "id": 11,
+    "date": "April 16, 2018",
+    "message": "An \"AH HA!\" moment just hit me.....I am going to add my resume and basic cover letter as either separate content sections and/or downloads for users to access. This resume though will include much more information than a typical resume sent for a specific job. This also seems like a \"no duh\" moment but hey, either way it is happening now! lol :)",
+    "signature": "-Jacques-"
+  },
+  {
+    "id": 12,
+    "date": "April 16, 2018",
+    "message": "Added a temporary portrait image to home.html. An interesting thing I realized is that since home.html is being loaded into index.html dynamically, the relative paths for any content on home.html (or any other dynamically loaded content) needs to be relative from index.html not the location of home.html.",
+    "signature": "-Jacques-"
+  },
+  {
+    "id": 13,
+    "date": "April 16, 2018",
+    "message": "Before going any further on the actual website, I am going to push what I have to my hosted portfolio site on GoDaddy.com. The url is www.jacquesbegin.com. I will walk through the tutorial provided by GoDaddy for how to use the cPanel administration application to get an overview of the hosting process.",
+    "signature": "-Jacques-"
+  },
+  {
+    "id": 14,
+    "date": "April 17, 2018",
+    "message": "So it is just past midnight and I have uploaded my portfolio site to GoDaddy hosting. Everything is working normally except for the db folder (which is outside of the public folder) is not being accessed. I'm checking for why this is but may have to call it a night and start fresh in the morning. Here's to new challenges!",
+    "signature": "-Jacques-"
+  },
+  {
+    "id": 15,
+    "date": "April 17, 2018",
+    "message": "A new feature idea! Create the functionality for users to create a quick account on my site and allow them to schedule interviews, meetings, or other conversational events. This would take my website from being just a site to actually being a web application. Users can login to CRUD their requests but don't have to rely solely on my web app for communication. By the user inputting their contact info email/phone/other the web app will automatically send notices to them (if the choose).",
+    "signature": "-Jacques-"
+  },
+  {
+    "id": 16,
+    "date": "April 17, 2018",
+    "message": "So.....I don't like the way I have to store the blog entries in a separate JS file/object to load into the site. My intention was to have them stored in a database and have a web server serve them to the site on an as needed basis (to prevent all entries from being loaded on blog content load). However, the hosting service I have through GoDaddy does not allow for a Node.js application to be setup. <-- this was the planned technology to use for the application. I will do more research for what my available options are, whether that be using a different service to serve the data or move the application entirely to a new service. The challenges are great and make me stronger :) <-- after researching, I have decided to keep going with the static site for now so that I have a portfolio site to show employers/clients. I will develop a new web portfolio application using Node.js and use Heroku to host it. This will be a great experience learning; to use this service and for how to take a local application and bring it to production level.",
+    "signature": "-Jacques-"
+  },
+  {
+    "id": 17,
+    "date": "April 23, 2018",
+    "message": "While adding my image to the home page, I noticed that there was a gap at the bottom of the image between the image and it's surrounding div. I researched and learned this has to do with the image being an inline element. There is a space given below inline elements to account for letters that have descenders, letters that extend lower/higher than other letters (ex. j, q, p, and f). By changing the image element to display as a block element rather than inline solved the issue.",
+    "signature": "-Jacques-"
+  },
+  {
+    "id": 18,
+    "date": "April 23, 2018",
+    "message": "For the last couple hours I've been integrating a new navbar that is much more prominent, is responsive, has hover effect, and has an \"active\" state (a class for showing as being \"selected\") when that link's content is displaying. I integrated the \"active\" state change into the content loader function by finding the parent of the node/element selected, clearing the \"active\" class from any other link, and then adding the \"active\" class to the selected link. On initial load of the site the home link is automatically selected. Now it's off to bed! (2:10am)",
+    "signature": "-Jacques-"
+  },
+  {
+    "id": 19,
+    "date": "April 23, 2018",
+    "message": "As I've been looking through job posts, I continue to see the need for web developer candidates to have experience with SASS, an extension language designed to bring new features into CSS with the intention of boosting developer efficiency and making CSS easier to maintain. So my first order of business for the day is to learn the in's and out's of SASS and bring it into my portfolio site, as both a portfolio piece and in implementation.",
+    "signature": "-Jacques-"
+  },
+  {
+    "id": 20,
+    "date": "April 23, 2018",
+    "message": "So I just read through the \"Learn SASS\" content on the SASS website and I'm very excited to get working with this. There are many helpful features, such as; variables,  partial files, importing CSS files into other files (without multiple HTTP requests), and inheritance to name a few.",
+    "signature": "-Jacques-"
+  },
+  {
+    "id": 21,
+    "date": "April 24, 2018",
+    "message": "I took a break from learning about SASS to work on my site's navigation functionality. I took the responsive design approach, starting with mobile first. I experimented with a few design styles and decided to go with (on mobile/screen sizes below 600px) a link in the upper right corner that, when clicked, displays a drop down menu with links to other content on the site. Since the content is injected into the index.html page using JavaScript, when a user switches between different content/links, their scroll positions are retained (so long as the page is not reloaded) and users can pick up where they left off. Functions added to the code are for; opening/closing the drop down menu and setting the active state of the current content view. The bulk of the work went into styling the navigation. <-- I can see why the SASS extension language would be helpful to prevent duplicating styles through extend/inheritance and variables. This was a great experience and I'm very proud of the progress being made. Everything added today was with CSS and JavaScript only.",
+    "signature": "-Jacques-"
+  },
+  {
+    "id": 22,
+    "date": "April 25, 2018",
+    "message": "I worked on the \"home\" page and added content related to my past and present life. This is meant only to be a short intro into those areas. I think the content might be a little long, especially for a site visitor who justs wants to get a quick idea about me but I don't want to over spend my time focusing on one thing when there is much more content I need to get on the site.",
+    "signature": "-Jacques-"
+  },
+  {
+    "id": 23,
+    "date": "April 26, 2018",
+    "message": "Just finished adding more blogs to the fake database file....!@#$%....I can't wait for this to be managed by backend code and a real database LOL ;)",
+    "signature": "-Jacques-"
   }
 ]
 
