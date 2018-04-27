@@ -43,7 +43,7 @@
 
 #homePortraitBorder {
   float: right;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   margin-left: 40px;
   padding: 3px;
   background-color: #41d6c3;
@@ -55,6 +55,11 @@
   display: block;
   max-width: 100%;
   border-radius: 50%;
+}
+
+#clover {
+  width: 23px;
+  height: 29px;
 }
 
 @media screen and (max-width: 1100px) {
