@@ -136,6 +136,12 @@ var databaseBlogEntries = [
     "date": "April 26, 2018",
     "message": "Just finished adding more blogs to the fake database file....!@#$%....I can't wait for this to be managed by backend code and a real database LOL ;)",
     "signature": "-Jacques-"
+  },
+  {
+    "id": 24,
+    "date": "April 26, 2018",
+    "message": "I decided to create my own clover icon in Adobe Illustrator instead of using the Unicode character. This is because the character style changes between browsers, on Chrome it is colored green and has a gradient but on mobile it's showing up as flat black. I can only imagine that it could look dramatically different in all browsers so why bother taking a chance. It was a fairly quick process to create, nothing outlandish, but it gets the point across. I also updated the blog entries to be current with today's date and modified styling of the home content to appear better on screen sized below 1100 pixels. It was a good day but tomorrow will be even better! Good luck out there with your challenges, you've got this!",
+    "signature": "-Jacques-"
   }
 ]
 
