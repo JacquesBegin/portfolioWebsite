@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAO;EACL,gBAAgB,ECEP,OAAO",
+"sources": ["../../sass/modules/__navbar.sass","../../sass/global/colors.sass"],
+"names": [],
+"file": "styles.css"
+}
