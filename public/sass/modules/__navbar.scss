@@ -8,16 +8,37 @@
   border-bottom: 1px $white solid;
 }
 
-.navbar__link {
+.navbar__nameContent {
+  float: left;
+}
+
+.navbar__nameContent__cloverWhite {
   display: block;
-  float: right;
+  float: left;
+  height: auto;
+}
+
+.navbar__nameContent__name {
+  float: left;
+  color: $white;
+}
+
+.navbar__nameContent__title {
+  position: relative;
+  color: $white;
+  font-weight: normal;
+}
+
+.navbar__allLinks__link {
+  display: block;
+  float: left;
   background-color: $darkBlue;
   color: $white;
   text-align: center;
   font-family: $linkFont;
 }
 
-.navbar__link:hover {
+.navbar__allLinks__link:hover {
   background-color: $mediumBlue;
 }
 
@@ -28,37 +49,30 @@
     float: right;
   }
 
-  .navbar__nameContent {
-    float: left;
-  }
-
   .navbar__nameContent__cloverWhite {
-    display: block;
-    float: left;
-    height: auto;
     width: 30px;
-    margin: 15px 5px 0 10px;
+    margin: 15px 0 0 10px;
   }
 
   .navbar__nameContent__name {
     float: left;
-    margin: 15px 0 0 5px;
+    margin: 15px 0 0 10px;
     color: $white;
     font-size: 2.4rem;
   }
 
   .navbar__nameContent__title {
     clear: both;
-    position: relative;
     top: 10px;
-    right: 0;
     margin-left: 22px;
-    color: $white;
     font-size: 1.3rem;
-    font-weight: normal;
   }
 
-  .navbar__link {
+  .navbar__allLinks {
+    float: right;
+  }
+
+  .navbar__allLinks__link {
     width: 60px;
     margin: 30px 10px 10px 0;
     padding: 10px 10px;
@@ -67,21 +81,41 @@
     border: $lightBlue 1px solid;
     border-radius: 5px;
   }
-
 }
 
 
 @media only screen and (max-width: 700px) {
 
   .navbar {
+    height: auto;
+  }
+
+  .navbar__nameContent {
+    display: none;
+  }
+
+  .navbar__nameContent__cloverWhite {
+    display: none;
+  }
+
+  .navbar__nameContent__name {
+    display: none;
+  }
+
+  .navbar__nameContent__title {
+    display: none;
+  }
+
+  .navbar__allLinks {
+    clear: both;
     display: flex;
   }
 
-  .navbar__link {
+  .navbar__allLinks__link {
     flex-grow: 1;
     overflow: hidden;
     height: auto;
-    padding: 20px;
+    padding: 15px 20px;
     vertical-align: middle;
   }
 }

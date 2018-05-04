@@ -311,48 +311,58 @@ body {
   background-color: #5596e6;
   border-bottom: 1px #ffffff solid; }
 
-.navbar__link {
+.navbar__nameContent {
+  float: left; }
+
+.navbar__nameContent__cloverWhite {
   display: block;
-  float: right;
+  float: left;
+  height: auto; }
+
+.navbar__nameContent__name {
+  float: left;
+  color: #ffffff; }
+
+.navbar__nameContent__title {
+  position: relative;
+  color: #ffffff;
+  font-weight: normal; }
+
+.navbar__allLinks__link {
+  display: block;
+  float: left;
   background-color: #3d70b2;
   color: #ffffff;
   text-align: center;
   font-family: helvetica, sans-serif; }
 
-.navbar__link:hover {
+.navbar__allLinks__link:hover {
   background-color: #5596e6; }
 
 @media only screen and (min-width: 701px) {
   .navbar {
     float: right; }
 
-  .navbar__nameContent {
-    float: left; }
-
   .navbar__nameContent__cloverWhite {
-    display: block;
-    float: left;
-    height: auto;
     width: 30px;
-    margin: 15px 5px 0 10px; }
+    margin: 15px 0 0 10px; }
 
   .navbar__nameContent__name {
     float: left;
-    margin: 15px 0 0 5px;
+    margin: 15px 0 0 10px;
     color: #ffffff;
     font-size: 2.4rem; }
 
   .navbar__nameContent__title {
     clear: both;
-    position: relative;
     top: 10px;
-    right: 0;
     margin-left: 22px;
-    color: #ffffff;
-    font-size: 1.3rem;
-    font-weight: normal; }
+    font-size: 1.3rem; }
 
-  .navbar__link {
+  .navbar__allLinks {
+    float: right; }
+
+  .navbar__allLinks__link {
     width: 60px;
     margin: 30px 10px 10px 0;
     padding: 10px 10px;
@@ -362,13 +372,29 @@ body {
     border-radius: 5px; } }
 @media only screen and (max-width: 700px) {
   .navbar {
+    height: auto; }
+
+  .navbar__nameContent {
+    display: none; }
+
+  .navbar__nameContent__cloverWhite {
+    display: none; }
+
+  .navbar__nameContent__name {
+    display: none; }
+
+  .navbar__nameContent__title {
+    display: none; }
+
+  .navbar__allLinks {
+    clear: both;
     display: flex; }
 
-  .navbar__link {
+  .navbar__allLinks__link {
     flex-grow: 1;
     overflow: hidden;
     height: auto;
-    padding: 20px;
+    padding: 15px 20px;
     vertical-align: middle; } }
 
 /*# sourceMappingURL=styles.css.map */
