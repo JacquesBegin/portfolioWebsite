@@ -1,0 +1,64 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.navbar__link {
+  position: relative;
+  display: block;
+  float: left;
+  background-color: $mediumBlue;
+  color: $white;
+  text-align: center;
+  font-family: $linkFont;
+}
+
+.navbar__link:hover {
+  background-color: $darkBlue;
+}
+
+
+@media only screen and (min-width: 461px) {
+
+  .navbar {
+    float: right;
+  }
+
+  .navbar__jacquesImage {
+    position: relative;
+    display: block;
+    float: right;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .navbar__link {
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    text-decoration: none;
+    box-shadow: 1px 1px 1px $black;
+    border: $lightBlue 1px solid;
+    border-radius: 5px;
+  }
+
+}
+
+
+@media only screen and (max-width: 460px) {
+
+  .navbar {
+    display: flex;
+  }
+
+  .navbar__link {
+    flex-grow: 1;
+    overflow: hidden;
+    height: auto;
+    padding: 20px;
+    vertical-align: middle;
+  }
+}
