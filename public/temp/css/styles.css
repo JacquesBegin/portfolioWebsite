@@ -299,18 +299,20 @@ template {
 
 body {
   background-color: #3d70b2;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: arial, sans-serif; }
 
 .navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  overflow: hidden; }
+  height: 100px;
+  overflow: hidden;
+  background-color: #41d6c3; }
 
 .navbar__link {
-  position: relative;
   display: block;
-  float: left;
+  float: right;
   background-color: #5596e6;
   color: #ffffff;
   text-align: center;
@@ -323,18 +325,36 @@ body {
   .navbar {
     float: right; }
 
-  .navbar__jacquesImage {
-    position: relative;
+  .navbar__nameContent {
+    float: left; }
+
+  .navbar__nameContent__cloverWhite {
     display: block;
-    float: right;
+    float: left;
     height: auto;
-    max-width: 100%; }
+    width: 30px;
+    padding: 8px 5px 0 5px; }
+
+  .navbar__nameContent__name {
+    float: left;
+    margin: 8px 0 0 5px;
+    color: #ffffff;
+    font-size: 2.4rem; }
+
+  .navbar__nameContent__title {
+    clear: both;
+    position: relative;
+    top: 10px;
+    right: 0;
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: normal; }
 
   .navbar__link {
     width: 60px;
-    margin-top: 10px;
-    margin-left: 10px;
-    padding: 20px;
+    margin: 30px 10px 10px 0;
+    padding: 10px 10px;
     text-decoration: none;
     box-shadow: 1px 1px 1px #000000;
     border: #c5d1eb 1px solid;
