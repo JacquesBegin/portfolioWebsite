@@ -302,6 +302,12 @@ body {
   box-sizing: border-box;
   font-family: arial, sans-serif; }
 
+@media only screen and (min-width: 701px) {
+  .top-of-page-spacer {
+    margin-bottom: 101px; } }
+@media only screen and (max-width: 701px) {
+  .top-of-page-spacer {
+    margin-bottom: 49px; } }
 .navbar {
   position: fixed;
   top: 0;
