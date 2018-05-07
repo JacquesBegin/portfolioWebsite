@@ -300,7 +300,11 @@ template {
 body {
   background-color: #3d70b2;
   box-sizing: border-box;
-  font-family: arial, sans-serif; }
+  font-family: arial, sans-serif;
+  color: #ffffff; }
+
+.warning {
+  color: #ff0000; }
 
 @media only screen and (min-width: 701px) {
   .top-of-page-spacer {
