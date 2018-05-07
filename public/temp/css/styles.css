@@ -308,10 +308,10 @@ body {
 
 @media only screen and (min-width: 701px) {
   .top-of-page-spacer {
-    margin-bottom: 101px; } }
+    height: 101px; } }
 @media only screen and (max-width: 701px) {
   .top-of-page-spacer {
-    margin-bottom: 49px; } }
+    height: 49px; } }
 .navbar {
   z-index: 1000;
   position: fixed;
@@ -408,14 +408,40 @@ body {
     padding: 15px 20px;
     vertical-align: middle; } }
 .home {
-  position: relative;
-  margin: 100px 0 0 0; }
+  display: block;
+  position: relative; }
 
 @media only screen and (min-width: 701px) {
   .home {
-    margin-top: 101px; } }
+    margin-top: -102px;
+    padding-top: 102px; } }
 @media only screen and (max-width: 701px) {
   .home {
-    margin-top: 49px; } }
+    margin-top: -50px;
+    padding-top: 50px; } }
+.projects {
+  display: block;
+  position: relative; }
+
+@media only screen and (min-width: 701px) {
+  .projects {
+    margin-top: -102px;
+    padding-top: 102px; } }
+@media only screen and (max-width: 701px) {
+  .projects {
+    margin-top: -50px;
+    padding-top: 50px; } }
+.contact {
+  display: block;
+  position: relative; }
+
+@media only screen and (min-width: 701px) {
+  .contact {
+    margin-top: -102px;
+    padding-top: 102px; } }
+@media only screen and (max-width: 701px) {
+  .contact {
+    margin-top: -50px;
+    padding-top: 50px; } }
 
 /*# sourceMappingURL=styles.css.map */

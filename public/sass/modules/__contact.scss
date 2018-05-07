@@ -1,4 +1,4 @@
-.home {
+.contact {
   display: block;
   position: relative;
 }
@@ -6,7 +6,7 @@
 
 @media only screen and (min-width: 701px) {
 
-  .home {
+  .contact {
     margin-top: -102px; //keeps the content below the navbar when anchor linking
     padding-top: 102px; //keeps the content below the navbar when anchor linking
   }
@@ -15,7 +15,7 @@
 
 @media only screen and (max-width: 701px) {
 
-  .home {
+  .contact {
     margin-top: -50px; //keeps the content below the navbar when anchor linking
     padding-top: 50px; //keeps the content below the navbar when anchor linking
   }
