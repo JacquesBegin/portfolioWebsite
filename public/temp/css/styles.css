@@ -313,6 +313,7 @@ body {
   .top-of-page-spacer {
     margin-bottom: 49px; } }
 .navbar {
+  z-index: 1000;
   position: fixed;
   top: 0;
   width: 100%;
@@ -406,5 +407,15 @@ body {
     height: auto;
     padding: 15px 20px;
     vertical-align: middle; } }
+.home {
+  position: relative;
+  margin: 100px 0 0 0; }
+
+@media only screen and (min-width: 701px) {
+  .home {
+    margin-top: 101px; } }
+@media only screen and (max-width: 701px) {
+  .home {
+    margin-top: 49px; } }
 
 /*# sourceMappingURL=styles.css.map */
