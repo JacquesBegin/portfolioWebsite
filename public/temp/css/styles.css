@@ -425,10 +425,10 @@ body {
 .home__intro__content {
   background-color: #5596e6;
   margin: 0 auto 0 auto;
-  padding: 5rem;
   text-align: center;
   border: #ffffff 1px solid;
-  box-shadow: 1px 1px 1px #000000; }
+  box-shadow: 1px 1px 1px #000000;
+  padding: 5rem; }
 
 .home__intro__content__name {
   font-size: 3rem; }
@@ -467,10 +467,10 @@ body {
 .home__tagline__content {
   background-color: #5596e6;
   margin: 0 auto 0 auto;
-  padding: 3rem;
   text-align: center;
   border: #ffffff 1px solid;
-  box-shadow: 1px 1px 1px #000000; }
+  box-shadow: 1px 1px 1px #000000;
+  padding: 3rem; }
 
 .home__tagline__content__quote {
   font-size: 1.5rem; }

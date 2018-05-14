@@ -1,15 +1,11 @@
 .home__tagline {
-  padding: 5rem 5rem 0 5rem;
+  @include bodyPanel;
 }
 
 
 .home__tagline__content {
-  background-color: $mediumBlue;
-  margin: 0 auto 0 auto;
+  @include bodyPanelContent;
   padding: 3rem;
-  text-align: center;
-  border: $white 1px solid;
-  box-shadow: 1px 1px 1px $black;
 }
 
 .home__tagline__content__quote {
@@ -26,14 +22,11 @@
 @media only screen and (max-width: 700px) {
 
   .home__tagline {
-    padding: 0;
+    @include bodyPanelMax700;
   }
 
   .home__tagline__content {
-    padding: 5rem;
-    border: none;
-    border-bottom: $white 1px solid;
-    box-shadow: none;
+    @include bodyPanelContentMax700;
   }
   
 }
@@ -42,10 +35,7 @@
 @media only screen and (max-width: 500px) {
 
   .home__tagline__content {
-    padding: 5rem 2rem 5rem 2rem;
-    // border: none;
-    // border-bottom: $white 1px solid;
-    // box-shadow: none;
+    @include bodyPanelContentMax500;
   }
   
 }
