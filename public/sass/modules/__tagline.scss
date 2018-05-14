@@ -1,48 +1,35 @@
-.home__intro {
+.home__tagline {
   padding: 5rem 5rem 0 5rem;
 }
 
-.home__intro__content {
+
+.home__tagline__content {
   background-color: $mediumBlue;
   margin: 0 auto 0 auto;
-  padding: 5rem;
+  padding: 3rem;
   text-align: center;
   border: $white 1px solid;
   box-shadow: 1px 1px 1px $black;
 }
 
-.home__intro__content__name {
-  font-size: 3rem;
+.home__tagline__content__quote {
+  font-size: 1.5rem;
+  
 }
 
-.home__intro__content__title {
-  font-size: 2.5rem;
-  font-weight: 100;
-}
-
-.home__intro__content__icons {
-  margin-top: 2rem;
-  font-size: 3rem;
-}
-
-.home__intro__content__icons__i {
-  margin-top: 2rem;
-  margin-right: 1rem;
-}
-
-.home__intro__content__icons__i-last {
-  margin-top: 2rem;
-  margin-right: 0;
+.home__tagline__content__quote__clover {
+  display: inline-block;
+  margin-top: 2em;
 }
 
 
 @media only screen and (max-width: 700px) {
 
-  .home__intro {
+  .home__tagline {
     padding: 0;
   }
 
-  .home__intro__content {
+  .home__tagline__content {
     padding: 5rem;
     border: none;
     border-bottom: $white 1px solid;
@@ -54,7 +41,7 @@
 
 @media only screen and (max-width: 500px) {
 
-  .home__intro__content {
+  .home__tagline__content {
     padding: 5rem 2rem 5rem 2rem;
     // border: none;
     // border-bottom: $white 1px solid;
