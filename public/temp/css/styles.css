@@ -419,6 +419,17 @@ body {
   .home {
     margin-top: -50px;
     padding-top: 50px; } }
+.home__intro {
+  margin: 15rem auto 0 auto;
+  text-align: center; }
+
+.home__intro__name {
+  font-size: 3rem; }
+
+.home__intro__title {
+  font-size: 2.5rem;
+  font-weight: 100; }
+
 .projects {
   display: block;
   position: relative; }
