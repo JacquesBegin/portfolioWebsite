@@ -420,7 +420,9 @@ body {
     margin-top: -50px;
     padding-top: 50px; } }
 .home__intro {
-  margin: 15rem auto 0 auto;
+  background-color: #5596e6;
+  margin: 5rem auto 5rem auto;
+  padding: 10rem;
   text-align: center; }
 
 .home__intro__name {
@@ -429,6 +431,18 @@ body {
 .home__intro__title {
   font-size: 2.5rem;
   font-weight: 100; }
+
+.home__intro__icons {
+  margin-top: 2rem;
+  font-size: 3rem; }
+
+.home__intro__icons__i {
+  margin-top: 2rem;
+  margin-right: 1rem; }
+
+.home__intro__icons__i-last {
+  margin-top: 2rem;
+  margin-right: 0; }
 
 .projects {
   display: block;
