@@ -31,16 +31,13 @@
 }
 
 .navbar__allLinks__link {
+  @include button;
   display: block;
   float: left;
-  background-color: $darkBlue;
-  color: $white;
-  text-align: center;
-  font-family: $linkFont;
 }
 
 .navbar__allLinks__link:hover {
-  background-color: $mediumBlue;
+  @include buttonHover;
 }
 
 

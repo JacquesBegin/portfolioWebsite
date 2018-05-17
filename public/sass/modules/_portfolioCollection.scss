@@ -1,0 +1,72 @@
+.portfolio__collection {
+  @include bodyPanel;
+}
+
+.portfolio__collection__content {
+  @include bodyPanelContent;
+  padding: 5rem;
+}
+
+.portfolio__collection__content__item {
+  border: 1px $white solid;
+}
+
+.portfolio__collection__content__item__name {
+
+}
+
+.portfolio__collection__content__item__tagline {
+  
+}
+
+.portfolio__collection__content__item__technologies {
+  font-style: italic;
+}
+
+.portfolio__collection__content__item__description {
+  
+}
+
+.portfolio__collection__content__item__link-github {
+  @include button;
+  @include buttonInner;
+  display: inline-block;
+  margin: .5rem;
+}
+
+.portfolio__collection__content__item__link-github:hover {
+  @include buttonHover;
+}
+
+.portfolio__collection__content__item__link-site {
+  @include button;
+  @include buttonInner;
+  display: inline-block;
+  margin: .5rem;
+}
+
+.portfolio__collection__content__item__link-site:hover {
+  @include buttonHover;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+  .portfolio__collection {
+    @include bodyPanelMax700;
+  }
+
+  .portfolio__collection__content {
+    @include bodyPanelContentMax700;
+  }
+  
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  .portfolio__collection__content {
+    @include bodyPanelContentMax500;
+  }
+  
+}

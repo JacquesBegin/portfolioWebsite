@@ -340,12 +340,12 @@ body {
   font-weight: normal; }
 
 .navbar__allLinks__link {
-  display: block;
-  float: left;
   background-color: #3d70b2;
   color: #ffffff;
   text-align: center;
-  font-family: helvetica, sans-serif; }
+  font-family: helvetica, sans-serif;
+  display: block;
+  float: left; }
 
 .navbar__allLinks__link:hover {
   background-color: #5596e6; }
@@ -589,10 +589,10 @@ body {
   .projects {
     margin-top: -50px;
     padding-top: 50px; } }
-.projects__collection {
+.portfolio__collection {
   padding: 5rem 5rem 0 5rem; }
 
-.projects__collection__content {
+.portfolio__collection__content {
   background-color: #5596e6;
   margin: 0 auto 0 auto;
   text-align: center;
@@ -600,17 +600,55 @@ body {
   box-shadow: 1px 1px 1px #000000;
   padding: 5rem; }
 
+.portfolio__collection__content__item {
+  border: 1px #ffffff solid; }
+
+.portfolio__collection__content__item__technologies {
+  font-style: italic; }
+
+.portfolio__collection__content__item__link-github {
+  background-color: #3d70b2;
+  color: #ffffff;
+  text-align: center;
+  font-family: helvetica, sans-serif;
+  padding: 10px 10px;
+  text-decoration: none;
+  box-shadow: 1px 1px 1px #000000;
+  border: #c5d1eb 1px solid;
+  border-radius: 5px;
+  display: inline-block;
+  margin: .5rem; }
+
+.portfolio__collection__content__item__link-github:hover {
+  background-color: #5596e6; }
+
+.portfolio__collection__content__item__link-site {
+  background-color: #3d70b2;
+  color: #ffffff;
+  text-align: center;
+  font-family: helvetica, sans-serif;
+  padding: 10px 10px;
+  text-decoration: none;
+  box-shadow: 1px 1px 1px #000000;
+  border: #c5d1eb 1px solid;
+  border-radius: 5px;
+  display: inline-block;
+  margin: .5rem; }
+
+.portfolio__collection__content__item__link-site:hover {
+  background-color: #5596e6; }
+
 @media only screen and (max-width: 700px) {
-  .projects__collection {
+  .portfolio__collection {
     padding: 0; }
 
-  .projects__collection__content {
+  .portfolio__collection__content {
     padding: 5rem;
     border: none;
     border-bottom: #ffffff 1px solid;
     box-shadow: none; } }
 @media only screen and (max-width: 500px) {
-  .projects__collection__content {
+  .portfolio__collection__content {
     padding: 5rem 2rem 5rem 2rem; } }
 .contact {
   display: block;
