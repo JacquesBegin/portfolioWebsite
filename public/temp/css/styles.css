@@ -589,6 +589,29 @@ body {
   .projects {
     margin-top: -50px;
     padding-top: 50px; } }
+.projects__collection {
+  padding: 5rem 5rem 0 5rem; }
+
+.projects__collection__content {
+  background-color: #5596e6;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  border: #ffffff 1px solid;
+  box-shadow: 1px 1px 1px #000000;
+  padding: 5rem; }
+
+@media only screen and (max-width: 700px) {
+  .projects__collection {
+    padding: 0; }
+
+  .projects__collection__content {
+    padding: 5rem;
+    border: none;
+    border-bottom: #ffffff 1px solid;
+    box-shadow: none; } }
+@media only screen and (max-width: 500px) {
+  .projects__collection__content {
+    padding: 5rem 2rem 5rem 2rem; } }
 .contact {
   display: block;
   position: relative; }
