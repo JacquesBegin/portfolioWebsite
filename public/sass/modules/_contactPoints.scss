@@ -1,0 +1,35 @@
+.contact__collection {
+  @include bodyPanel;
+}
+
+.contact__collection__content {
+  @include bodyPanelContent;
+  padding: 3rem;
+}
+
+.contact__collection__content__title {
+  text-align: left;
+  margin-top: 0;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+  .contact__collection {
+    @include bodyPanelMax700;
+  }
+
+  .contact__collection__content {
+    @include bodyPanelContentMax700;
+  }
+  
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  .contact__collection__content {
+    @include bodyPanelContentMax500;
+  }
+  
+}

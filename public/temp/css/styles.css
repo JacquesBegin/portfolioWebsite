@@ -674,7 +674,8 @@ body {
   .portfolio__collection__content__item {
     padding: 1rem;
     border: none;
-    border-bottom: 1px #ffffff solid; } }
+    border-bottom: 1px #ffffff solid;
+    box-shadow: none; } }
 .contact {
   display: block;
   position: relative; }
@@ -687,5 +688,32 @@ body {
   .contact {
     margin-top: -50px;
     padding-top: 50px; } }
+.contact__collection {
+  padding: 5rem 5rem 0 5rem; }
+
+.contact__collection__content {
+  background-color: #5596e6;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  border: #ffffff 1px solid;
+  box-shadow: 1px 1px 1px #000000;
+  padding: 3rem; }
+
+.contact__collection__content__title {
+  text-align: left;
+  margin-top: 0; }
+
+@media only screen and (max-width: 700px) {
+  .contact__collection {
+    padding: 0; }
+
+  .contact__collection__content {
+    padding: 5rem;
+    border: none;
+    border-bottom: #ffffff 1px solid;
+    box-shadow: none; } }
+@media only screen and (max-width: 500px) {
+  .contact__collection__content {
+    padding: 5rem 2rem 5rem 2rem; } }
 
 /*# sourceMappingURL=styles.css.map */
