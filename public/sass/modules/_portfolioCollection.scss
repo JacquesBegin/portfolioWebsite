@@ -4,34 +4,44 @@
 
 .portfolio__collection__content {
   @include bodyPanelContent;
-  padding: 5rem;
+  padding: 3rem;
+}
+
+.portfolio__collection__content__title {
+  text-align: left;
+  margin-top: 0;
 }
 
 .portfolio__collection__content__item {
+  padding: 1rem;
   border: 1px $white solid;
+  margin: 1rem;
+  box-shadow: 1px 1px 1px $black;
 }
 
 .portfolio__collection__content__item__name {
-
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
 }
 
 .portfolio__collection__content__item__tagline {
-  
+  margin-bottom: .5rem;
 }
 
 .portfolio__collection__content__item__technologies {
   font-style: italic;
+  margin-bottom: .5rem;
 }
 
 .portfolio__collection__content__item__description {
-  
+  margin-bottom: .5rem;
 }
 
 .portfolio__collection__content__item__link-github {
   @include button;
   @include buttonInner;
   display: inline-block;
-  margin: .5rem;
+  margin: .5rem .5rem 0 .5rem;
 }
 
 .portfolio__collection__content__item__link-github:hover {
@@ -42,7 +52,7 @@
   @include button;
   @include buttonInner;
   display: inline-block;
-  margin: .5rem;
+  margin: .5rem .5rem 0 .5rem;
 }
 
 .portfolio__collection__content__item__link-site:hover {
@@ -67,6 +77,12 @@
 
   .portfolio__collection__content {
     @include bodyPanelContentMax500;
+  }
+
+  .portfolio__collection__content__item {
+    padding: 1rem;
+    border: none;
+    border-bottom: 1px $white solid;
   }
   
 }

@@ -301,7 +301,8 @@ body {
   background-color: #3d70b2;
   box-sizing: border-box;
   font-family: arial, sans-serif;
-  color: #ffffff; }
+  color: #ffffff;
+  margin-bottom: 5rem; }
 
 .warning {
   color: #ff0000; }
@@ -431,6 +432,7 @@ body {
   padding: 5rem; }
 
 .home__intro__content__name {
+  margin-top: 0;
   font-size: 3rem; }
 
 .home__intro__content__title {
@@ -598,13 +600,31 @@ body {
   text-align: center;
   border: #ffffff 1px solid;
   box-shadow: 1px 1px 1px #000000;
-  padding: 5rem; }
+  padding: 3rem; }
+
+.portfolio__collection__content__title {
+  text-align: left;
+  margin-top: 0; }
 
 .portfolio__collection__content__item {
-  border: 1px #ffffff solid; }
+  padding: 1rem;
+  border: 1px #ffffff solid;
+  margin: 1rem;
+  box-shadow: 1px 1px 1px #000000; }
+
+.portfolio__collection__content__item__name {
+  font-size: 1.5rem;
+  margin-bottom: .5rem; }
+
+.portfolio__collection__content__item__tagline {
+  margin-bottom: .5rem; }
 
 .portfolio__collection__content__item__technologies {
-  font-style: italic; }
+  font-style: italic;
+  margin-bottom: .5rem; }
+
+.portfolio__collection__content__item__description {
+  margin-bottom: .5rem; }
 
 .portfolio__collection__content__item__link-github {
   background-color: #3d70b2;
@@ -617,7 +637,7 @@ body {
   border: #c5d1eb 1px solid;
   border-radius: 5px;
   display: inline-block;
-  margin: .5rem; }
+  margin: .5rem .5rem 0 .5rem; }
 
 .portfolio__collection__content__item__link-github:hover {
   background-color: #5596e6; }
@@ -633,7 +653,7 @@ body {
   border: #c5d1eb 1px solid;
   border-radius: 5px;
   display: inline-block;
-  margin: .5rem; }
+  margin: .5rem .5rem 0 .5rem; }
 
 .portfolio__collection__content__item__link-site:hover {
   background-color: #5596e6; }
@@ -649,7 +669,12 @@ body {
     box-shadow: none; } }
 @media only screen and (max-width: 500px) {
   .portfolio__collection__content {
-    padding: 5rem 2rem 5rem 2rem; } }
+    padding: 5rem 2rem 5rem 2rem; }
+
+  .portfolio__collection__content__item {
+    padding: 1rem;
+    border: none;
+    border-bottom: 1px #ffffff solid; } }
 .contact {
   display: block;
   position: relative; }
