@@ -613,17 +613,20 @@ body {
   box-shadow: 1px 1px 1px #000000; }
 
 .portfolio__collection__content__item__name {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: .5rem; }
 
 .portfolio__collection__content__item__tagline {
+  font-size: 1.5rem;
   margin-bottom: .5rem; }
 
 .portfolio__collection__content__item__technologies {
+  font-size: 1.5rem;
   font-style: italic;
   margin-bottom: .5rem; }
 
 .portfolio__collection__content__item__description {
+  font-size: 1.5rem;
   margin-bottom: .5rem; }
 
 .portfolio__collection__content__item__link-github {
@@ -703,6 +706,25 @@ body {
   text-align: left;
   margin-top: 0; }
 
+.contact__collection__content__quote {
+  font-size: 1.5rem; }
+
+.contact__collection__content__icons {
+  margin-top: 2rem; }
+
+.contact__collection__content__icons__section {
+  display: inline-block;
+  margin-right: 5rem;
+  font-size: 1.5rem; }
+
+.contact__collection__content__icons__section-last {
+  display: inline-block;
+  margin-right: 0;
+  font-size: 1.5rem; }
+
+.contact__collection__content__icons__i {
+  font-size: 5rem; }
+
 @media only screen and (max-width: 700px) {
   .contact__collection {
     padding: 0; }
@@ -711,9 +733,19 @@ body {
     padding: 5rem;
     border: none;
     border-bottom: #ffffff 1px solid;
-    box-shadow: none; } }
+    box-shadow: none; }
+
+  .contact__collection__content__icons__section {
+    margin-right: 2rem; } }
 @media only screen and (max-width: 500px) {
   .contact__collection__content {
-    padding: 5rem 2rem 5rem 2rem; } }
+    padding: 5rem 2rem 5rem 2rem; }
+
+  .contact__collection__content__icons__section {
+    display: block;
+    margin: 0 0 2rem 0; }
+
+  .contact__collection__content__icons__section-last {
+    display: block; } }
 
 /*# sourceMappingURL=styles.css.map */
