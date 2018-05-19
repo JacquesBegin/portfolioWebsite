@@ -1,0 +1,38 @@
+.footer {
+  position: relative;
+  padding-bottom: 1rem;
+  height: 22rem;
+}
+
+.footer__content {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: .5rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: $mediumBlue;
+  border-radius: 3px;
+}
+
+.footer__content__copyrightSymbol {
+
+}
+
+.footer__content__copyrightText {
+
+}
+
+.footer__content__copyrightName {
+  
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+  .footer {
+    height: 5rem;
+  }
+  
+}

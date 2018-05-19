@@ -301,8 +301,7 @@ body {
   background-color: #3d70b2;
   box-sizing: border-box;
   font-family: arial, sans-serif;
-  color: #ffffff;
-  margin-bottom: 22rem; }
+  color: #ffffff; }
 
 .warning {
   color: #ff0000; }
@@ -752,5 +751,23 @@ body {
 
   .contact__collection__content__icons__section-last {
     display: block; } }
+.footer {
+  position: relative;
+  padding-bottom: 1rem;
+  height: 22rem; }
+
+.footer__content {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: .5rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: #5596e6;
+  border-radius: 3px; }
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    height: 5rem; } }
 
 /*# sourceMappingURL=styles.css.map */

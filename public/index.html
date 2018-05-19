@@ -163,5 +163,16 @@
       </div>
     </div>
 
+    <footer class="footer">
+      <div class="footer__content">
+        <span class="footer__content__copyrightSymbol">&copy; </span><span id="footer__content__copyrightYear" class="footer__content__copyrightYear"></span><span class="footer__content__copyrightName"> Jacques Begin</span>
+      </div>
+    </footer>
+
+    <script>
+      var date = new Date();
+      document.getElementById("footer__content__copyrightYear").innerHTML = date.getFullYear();
+    </script>
+
   </body>
 </html>
