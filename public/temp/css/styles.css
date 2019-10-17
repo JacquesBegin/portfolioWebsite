@@ -298,10 +298,10 @@ template {
   display: none; }
 
 body {
-  background-color: #3d70b2;
+  background-color: #0c0032;
   box-sizing: border-box;
   font-family: arial, sans-serif;
-  color: #ffffff; }
+  color: #3500d3; }
 
 .warning {
   color: #ff0000; }
@@ -319,7 +319,7 @@ body {
   width: 100%;
   height: 100px;
   overflow: hidden;
-  background-color: #5596e6;
+  background-color: #000000;
   border-bottom: 1px #ffffff solid; }
 
 .navbar__nameContent {
@@ -332,15 +332,15 @@ body {
 
 .navbar__nameContent__name {
   float: left;
-  color: #ffffff; }
+  color: #3500d3; }
 
 .navbar__nameContent__title {
   position: relative;
-  color: #ffffff;
+  color: #3500d3;
   font-weight: normal; }
 
 .navbar__allLinks__link {
-  background-color: #3d70b2;
+  background-color: #000000;
   color: #ffffff;
   text-align: center;
   font-family: helvetica, sans-serif;
@@ -348,7 +348,7 @@ body {
   float: left; }
 
 .navbar__allLinks__link:hover {
-  background-color: #5596e6; }
+  background-color: #240090; }
 
 @media only screen and (min-width: 701px) {
   .navbar {
@@ -361,7 +361,7 @@ body {
   .navbar__nameContent__name {
     float: left;
     margin: 15px 0 0 10px;
-    color: #ffffff;
+    color: #3500d3;
     font-size: 2.4rem; }
 
   .navbar__nameContent__title {
@@ -379,7 +379,7 @@ body {
     padding: 10px 10px;
     text-decoration: none;
     box-shadow: 1px 1px 1px #000000;
-    border: #c5d1eb 1px solid;
+    border: #000000 1px solid;
     border-radius: 5px; } }
 @media only screen and (max-width: 700px) {
   .navbar {
@@ -423,11 +423,11 @@ body {
   padding: 5rem 5rem 0 5rem; }
 
 .home__intro__content {
-  background-color: #5596e6;
+  background-color: #000000;
   margin: 0 auto 0 auto;
   text-align: center;
   border: #ffffff 1px solid;
-  box-shadow: 1px 1px 1px #000000;
+  box-shadow: 1px 1px 1px #3500d3;
   padding: 5rem; }
 
 .home__intro__content__name {
@@ -457,7 +457,7 @@ body {
   .home__intro__content {
     padding: 5rem;
     border: none;
-    border-bottom: #ffffff 1px solid;
+    border-bottom: #3500d3 1px solid;
     box-shadow: none; } }
 @media only screen and (max-width: 500px) {
   .home__intro__content {
@@ -466,11 +466,11 @@ body {
   padding: 5rem 5rem 0 5rem; }
 
 .home__tagline__content {
-  background-color: #5596e6;
+  background-color: #000000;
   margin: 0 auto 0 auto;
   text-align: center;
   border: #ffffff 1px solid;
-  box-shadow: 1px 1px 1px #000000;
+  box-shadow: 1px 1px 1px #3500d3;
   padding: 3rem; }
 
 .home__tagline__content__quote {
@@ -487,7 +487,7 @@ body {
   .home__tagline__content {
     padding: 5rem;
     border: none;
-    border-bottom: #ffffff 1px solid;
+    border-bottom: #3500d3 1px solid;
     box-shadow: none; } }
 @media only screen and (max-width: 500px) {
   .home__tagline__content {
@@ -496,11 +496,11 @@ body {
   padding: 5rem 5rem 0 5rem; }
 
 .home__skills__content {
-  background-color: #5596e6;
+  background-color: #000000;
   margin: 0 auto 0 auto;
   text-align: center;
   border: #ffffff 1px solid;
-  box-shadow: 1px 1px 1px #000000;
+  box-shadow: 1px 1px 1px #3500d3;
   padding: 3rem; }
 
 .home__skills__content__hardskills {
@@ -561,7 +561,7 @@ body {
   .home__skills__content {
     padding: 5rem;
     border: none;
-    border-bottom: #ffffff 1px solid;
+    border-bottom: #3500d3 1px solid;
     box-shadow: none; } }
 @media only screen and (max-width: 500px) {
   .home__skills__content {
@@ -594,11 +594,11 @@ body {
   padding: 5rem 5rem 0 5rem; }
 
 .portfolio__collection__content {
-  background-color: #5596e6;
+  background-color: #000000;
   margin: 0 auto 0 auto;
   text-align: center;
   border: #ffffff 1px solid;
-  box-shadow: 1px 1px 1px #000000;
+  box-shadow: 1px 1px 1px #3500d3;
   padding: 3rem; }
 
 .portfolio__collection__content__title {
@@ -629,36 +629,36 @@ body {
   margin-bottom: .5rem; }
 
 .portfolio__collection__content__item__link-github {
-  background-color: #3d70b2;
+  background-color: #000000;
   color: #ffffff;
   text-align: center;
   font-family: helvetica, sans-serif;
   padding: 10px 10px;
   text-decoration: none;
   box-shadow: 1px 1px 1px #000000;
-  border: #c5d1eb 1px solid;
+  border: #3500d3 1px solid;
   border-radius: 5px;
   display: inline-block;
   margin: .5rem .5rem 0 .5rem; }
 
 .portfolio__collection__content__item__link-github:hover {
-  background-color: #5596e6; }
+  background-color: #240090; }
 
 .portfolio__collection__content__item__link-site {
-  background-color: #3d70b2;
+  background-color: #000000;
   color: #ffffff;
   text-align: center;
   font-family: helvetica, sans-serif;
   padding: 10px 10px;
   text-decoration: none;
   box-shadow: 1px 1px 1px #000000;
-  border: #c5d1eb 1px solid;
+  border: #3500d3 1px solid;
   border-radius: 5px;
   display: inline-block;
   margin: .5rem .5rem 0 .5rem; }
 
 .portfolio__collection__content__item__link-site:hover {
-  background-color: #5596e6; }
+  background-color: #240090; }
 
 @media only screen and (max-width: 700px) {
   .portfolio__collection {
@@ -667,7 +667,7 @@ body {
   .portfolio__collection__content {
     padding: 5rem;
     border: none;
-    border-bottom: #ffffff 1px solid;
+    border-bottom: #3500d3 1px solid;
     box-shadow: none; } }
 @media only screen and (max-width: 500px) {
   .portfolio__collection__content {
@@ -695,11 +695,11 @@ body {
   padding: 5rem 5rem 0 5rem; }
 
 .contact__collection__content {
-  background-color: #5596e6;
+  background-color: #000000;
   margin: 0 auto 0 auto;
   text-align: center;
   border: #ffffff 1px solid;
-  box-shadow: 1px 1px 1px #000000;
+  box-shadow: 1px 1px 1px #3500d3;
   padding: 3rem; }
 
 .contact__collection__content__title {
@@ -716,14 +716,14 @@ body {
   display: inline-block;
   margin-right: 5rem;
   font-size: 1.5rem;
-  color: #ffffff;
+  color: #3500d3;
   text-decoration: none; }
 
 .contact__collection__content__icons__section-last {
   display: inline-block;
   margin-right: 0;
   font-size: 1.5rem;
-  color: #ffffff;
+  color: #3500d3;
   text-decoration: none; }
 
 .contact__collection__content__icons__i {
@@ -736,7 +736,7 @@ body {
   .contact__collection__content {
     padding: 5rem;
     border: none;
-    border-bottom: #ffffff 1px solid;
+    border-bottom: #3500d3 1px solid;
     box-shadow: none; }
 
   .contact__collection__content__icons__section {
@@ -763,7 +763,7 @@ body {
   margin: .5rem;
   padding: 1rem;
   text-align: center;
-  background-color: #5596e6;
+  background-color: #000000;
   border-radius: 3px; }
 
 @media only screen and (max-width: 500px) {
