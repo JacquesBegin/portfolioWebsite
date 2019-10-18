@@ -346,7 +346,8 @@ body {
   float: left; }
 
 .navbar__allLinks__link:hover {
-  background-color: #5596e6; }
+  background-color: #ffffff;
+  color: #5596e6; }
 
 @media only screen and (min-width: 701px) {
   .navbar {
@@ -376,9 +377,7 @@ body {
     margin: 30px 10px 10px 0;
     padding: 10px 10px;
     text-decoration: none;
-    box-shadow: 1px 1px 1px #000000;
-    border: #c5d1eb 1px solid;
-    border-radius: 5px; } }
+    box-shadow: 1px 1px 1px #000000; } }
 @media only screen and (max-width: 700px) {
   .navbar {
     height: auto; }
@@ -638,7 +637,8 @@ body {
   margin: .5rem .5rem 0 .5rem; }
 
 .portfolio__collection__content__item__link-github:hover {
-  background-color: #5596e6; }
+  background-color: #ffffff;
+  color: #5596e6; }
 
 .portfolio__collection__content__item__link-site {
   color: #ffffff;
@@ -652,7 +652,8 @@ body {
   margin: .5rem .5rem 0 .5rem; }
 
 .portfolio__collection__content__item__link-site:hover {
-  background-color: #5596e6; }
+  background-color: #ffffff;
+  color: #5596e6; }
 
 @media only screen and (max-width: 700px) {
   .portfolio__collection {
