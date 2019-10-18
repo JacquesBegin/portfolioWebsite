@@ -6,7 +6,8 @@
 }
 
 @mixin buttonHover {
-  background-color: $mediumBlue;
+  background-color: $white;
+  color: $mediumBlue;
 }
 
 @mixin buttonInner {
