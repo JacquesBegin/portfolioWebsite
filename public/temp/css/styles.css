@@ -339,7 +339,6 @@ body {
   font-weight: normal; }
 
 .navbar__allLinks__link {
-  background-color: #3d70b2;
   color: #ffffff;
   text-align: center;
   font-family: helvetica, sans-serif;
@@ -628,7 +627,6 @@ body {
   margin-bottom: .5rem; }
 
 .portfolio__collection__content__item__link-github {
-  background-color: #3d70b2;
   color: #ffffff;
   text-align: center;
   font-family: helvetica, sans-serif;
@@ -636,7 +634,6 @@ body {
   text-decoration: none;
   box-shadow: 1px 1px 1px #000000;
   border: #c5d1eb 1px solid;
-  border-radius: 5px;
   display: inline-block;
   margin: .5rem .5rem 0 .5rem; }
 
@@ -644,7 +641,6 @@ body {
   background-color: #5596e6; }
 
 .portfolio__collection__content__item__link-site {
-  background-color: #3d70b2;
   color: #ffffff;
   text-align: center;
   font-family: helvetica, sans-serif;
@@ -652,7 +648,6 @@ body {
   text-decoration: none;
   box-shadow: 1px 1px 1px #000000;
   border: #c5d1eb 1px solid;
-  border-radius: 5px;
   display: inline-block;
   margin: .5rem .5rem 0 .5rem; }
 
