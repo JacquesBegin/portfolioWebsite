@@ -9,7 +9,7 @@ The default GitHub read me file (README.md) is intended for markdown use.
 
 
 
-Headers
+# Headers
 
 You can create headers in Markdown by prefixing "#" (hashtag/pound/number sign) to the intended header content.
 
@@ -49,3 +49,16 @@ Written as "###### H6 Header"
 ###### H6 Header
 ```
 
+
+# Links
+
+Another good feature for enhancing our Markdown is using links.
+
+To create a link follow this syntax: 
+```shell
+[Link Text](URL)
+```
+EX.
+```shell
+The infamous [Click Here](http://www.jacquesbegin.com) link.
+```
