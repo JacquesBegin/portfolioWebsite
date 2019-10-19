@@ -63,3 +63,9 @@ EX.
 The infamous [Click Here](http://www.jacquesbegin.com) link.
 ```
 The infamous [Click Here](http://www.jacquesbegin.com) link.
+
+
+# Table of Contents
+
+As with most textbooks and other informative documentation, table of contents are used to quickly locate specific content sections. You can do this in Markdown as well.
+
