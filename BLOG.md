@@ -13,7 +13,12 @@ The default GitHub read me file (README.md) is intended for markdown use.
 
 You can create headers in Markdown by prefixing "#" (hashtag/pound/number sign) to the intended header content.
 
-Ex.
+```shell
+# This is a HEADER
+```
+
+EX.
+
 # This is a HEADER
 
 Just like with HTML, there are 6 header sizes.
@@ -58,10 +63,11 @@ To create a link follow this syntax:
 ```shell
 [Link Text](URL)
 ```
-EX.
 ```shell
 The infamous [Click Here](http://www.jacquesbegin.com) link.
 ```
+EX.
+
 The infamous [Click Here](http://www.jacquesbegin.com) link.
 
 
@@ -73,8 +79,22 @@ To create an unordered list in Markdown use this syntax:
 * List
   * Item 1
 ```
+EX.
 * List
   * Item 1
+
+
+An ordered list is created like this:
+
+```shell
+1. Item 1
+2. Item 2
+3. Item 3
+```
+EX.
+1. Item 1
+2. Item 2
+3. Item 3
 
 
 ## Table of Contents
