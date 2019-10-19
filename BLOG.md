@@ -15,3 +15,18 @@ You can create headers in Markdown by prefixing "#" (hashtag/pound/number sign) 
 
 Ex.
 # This is a HEADER
+
+Just like with HTML, there are 6 header sizes.
+
+# H1 Header
+Written as "# H1 Header"
+## H2 Header
+Written as "# H2 Header"
+### H3 Header
+Written as "# H3 Header"
+#### H4 Header
+Written as "# H4 Header"
+##### H5 Header
+Written as "# H5 Header"
+###### H6 Header
+Written as "# H6 Header"
