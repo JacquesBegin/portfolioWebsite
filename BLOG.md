@@ -105,3 +105,10 @@ As with most textbooks and other informative documentation, table of contents ar
 [README.md](/README.md)
 ```
 
+EX.
+
+### Table of Contents
+* [README.md](/README.md)
+* [index.html](/index.html)
+* [styles.css](/public/temp/css/styles.css)
+
