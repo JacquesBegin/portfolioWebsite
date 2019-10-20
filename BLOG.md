@@ -54,6 +54,29 @@ Written as "###### H6 Header"
 ###### H6 Header
 ```
 
+# Emphasis
+
+Italics and strong text can be created as such:
+
+Italics - use a single asterisks or single underscores
+
+```shell
+*italics* or _italics_
+```
+EX.
+
+*italics* or _italics_
+
+Strong - use double asterisks or underscores
+
+```shell
+**strong** or __strong__
+```
+EX.
+**strong** or __strong__
+
+
+
 
 # Links
 
