@@ -139,6 +139,12 @@ To create a basic code block use the following syntax:
 | ```               |
 ```
 
+```shell
+Write code here
+without the
+vertical pipes
+```
+
 If you swap out "shell" with "javascript" then the code block will have JavaScript syntax highlighting.
 
 ```javascript
