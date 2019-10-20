@@ -97,7 +97,7 @@ EX.
 3. Item 3
 
 
-## Table of Contents
+# Table of Contents
 
 As with most textbooks and other informative documentation, table of contents are used to quickly locate specific content sections. You can do this in Markdown as well.
 
@@ -112,3 +112,37 @@ EX.
 * [index.html](/public/index.html)
 * [styles.css](/public/temp/css/styles.css)
 
+
+# Code Blocks
+
+A very helpful feature in Markdown is code blocks. These are sections of the page that are formatted to display code that more closely resembles a code editor.
+
+You have seen many examples in this article so far, such as:
+
+```shell
+## H2 Header
+```
+
+and
+
+```shell
+[Link Text](URL)
+```
+
+To create a basic code block use the following syntax:
+
+```shell
+| ```shell          |
+| Write code here   |
+| without the       |
+| vertical pipes    |
+| ```               |
+```
+
+If you swap out "shell" with "javascript" then the code block will have JavaScript syntax highlighting.
+
+```javascript
+function helloWorld() {
+  console.log("Hello World!");
+}
+```
