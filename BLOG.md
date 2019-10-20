@@ -106,6 +106,20 @@ EX.
 * List
   * Item 1
 
+Aside from asterisks, lists can also use pluses or minuses for bullets.
+
+```shell
+* List
+  + Plus
+  - Minus
+```
+EX.
+
+* List
+  + Plus
+  - Minus
+
+
 
 An ordered list is created like this:
 
