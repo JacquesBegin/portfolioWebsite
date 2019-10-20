@@ -109,6 +109,6 @@ EX.
 
 ### Table of Contents
 * [README.md](/README.md)
-* [index.html](/index.html)
+* [index.html](/public/index.html)
 * [styles.css](/public/temp/css/styles.css)
 
