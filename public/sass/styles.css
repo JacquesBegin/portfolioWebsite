@@ -300,7 +300,7 @@ template {
 body {
   box-sizing: border-box;
   font-family: georgia, arial, sans-serif;
-  color: #ffffff; }
+  color: #000000; }
 
 .warning {
   color: #ff0000; }
