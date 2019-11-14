@@ -12,9 +12,17 @@
     
   </head>
   <body>
+    <section>
+    </section>
 
+    <footer>
+      <div>&copy; <span id="copyrightYear"></span> Jacques Begin</div>
+
+      <script>
+        var date = new Date();
+        document.getElementById("copyrightYear").innerHTML = date.getFullYear();
+      </script>
+    </footer>
   </body>
-  <footer>
-
-  </footer>
+  
 </html>
