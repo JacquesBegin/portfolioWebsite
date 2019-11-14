@@ -1,15 +1,30 @@
-function createLevelSelector() {
-  let rating = document.getElementById("levelSelector");
-  // console.log(rating);
-    for(let node of rating.children) {
-      node.addEventListener("click", function() {
-        console.log(this.style);
-        let box = this.style.backgroundColor = "#00ffbf"
-        
-      })
+function createLevelSelector(skillData) {
+  let levelSelector = document.createElement("div");
+  levelSelector.id = skillData.id;
+  for (let x = 1; x < 6; x++) {
+    let level = document.createElement("div");
+    level.id = `${skillData.id}level${x}`;
+    level.className = "level";
+    if (x <= skillData.level) {
+      level.style.backgroundColor = "#00ffbf";
     }
+    levelSelector.appendChild(level);
+  }
+  // document.getElementById("frontEnd").appendChild(levelSelector);
 }
 
 
+// A button to test events
+// document.getElementById("button").addEventListener("click", function() {
+//   createLevelSelector({
+//     "id": "8bd38fa4-c7d1-44f7-bd82-e6071f932551",
+//     "name": "Learn the basics",
+//     "level": 1,
+//     "resources": [],
+//     "examples": []
+//   });
+// });
 
-createLevelSelector();
+
+
+// createLevelSelector();
