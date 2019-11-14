@@ -1,0 +1,62 @@
+body {
+
+}
+
+a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: #000000;
+}
+
+#levelSelector {
+  width: 100px;
+  height: 100px;
+  background-color: #afafaf;
+}
+
+#level1 {
+  float: left;
+  margin-right: 2px;
+  width: .8em;
+  height: .8em;
+  background-color: blue;
+  border: .1em solid black;
+}
+
+#level2 {
+  float: left;
+  margin-right: 2px;
+  width: .8em;
+  height: .8em;
+  background-color: blue;
+  border: .1em solid black;
+}
+
+#level3 {
+  float: left;
+  margin-right: 2px;
+  width: .8em;
+  height: .8em;
+  background-color: blue;
+  border: .1em solid black;
+}
+
+#level4 {
+  float: left;
+  margin-right: 2px;
+  width: .8em;
+  height: .8em;
+  background-color: blue;
+  border: .1em solid black;
+}
+
+#level5 {
+  float: left;
+  margin-right: 2px;
+  width: .8em;
+  height: .8em;
+  background-color: blue;
+  border: .1em solid black;
+}
