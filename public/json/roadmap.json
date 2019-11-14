@@ -1,36 +1,37 @@
-{ "data": [
-  { 
-    "sectionTitle": "HTML",
-    "topics": [
-      {
-        "id": "",
-        "name": "Learn the basics",
-        "level": 1,
-        "resources": [],
-        "examples": []
-      },
-      {
-        "id": "",
-        "name": "Writing Semantic HTML",
-        "level": 1,
-        "resources": [],
-        "examples": []
-      },
-      {
-        "id": "",
-        "name": "Basic SEO",
-        "level": 1,
-        "resources": [],
-        "examples": []
-      },
-      {
-        "id": "",
-        "name": "Accessibility",
-        "level": 1,
-        "resources": [],
-        "examples": []
-      }
-    ]
-  }
+{
+  "data": [
+    {
+      "sectionTitle": "HTML",
+      "topics": [
+        {
+          "id": "8bd38fa4-c7d1-44f7-bd82-e6071f932551",
+          "name": "Learn the basics",
+          "level": 1,
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "76cc137b-eb00-4504-a70d-cd5a14c90398",
+          "name": "Writing Semantic HTML",
+          "level": 1,
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "a564b055-aeee-4eef-a82a-685367263141",
+          "name": "Basic SEO",
+          "level": 1,
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "6038e35d-90b0-4126-8f7a-a2b7bd27ca94",
+          "name": "Accessibility",
+          "level": 1,
+          "resources": [],
+          "examples": []
+        }
+      ]
+    }
   ]
 }
