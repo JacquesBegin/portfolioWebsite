@@ -11,52 +11,60 @@ a:visited {
 }
 
 #levelSelector {
-  width: 100px;
-  height: 100px;
-  background-color: #afafaf;
+  display: inline-block;
+  margin-left: 2em;
 }
 
 #level1 {
   float: left;
   margin-right: 2px;
-  width: .8em;
-  height: .8em;
-  background-color: blue;
-  border: .1em solid black;
+  width: .9em;
+  height: .9em;
+  background-color: #c4c2c2;
+  border: .05em solid black;
+  border-radius: 50%;
 }
 
 #level2 {
   float: left;
   margin-right: 2px;
-  width: .8em;
-  height: .8em;
-  background-color: blue;
-  border: .1em solid black;
+  width: .9em;
+  height: .9em;
+  background-color: #c4c2c2;
+  border: .05em solid black;
+  border-radius: 50%;
 }
 
 #level3 {
   float: left;
   margin-right: 2px;
-  width: .8em;
-  height: .8em;
-  background-color: blue;
-  border: .1em solid black;
+  width: .9em;
+  height: .9em;
+  background-color: #c4c2c2;
+  border: .05em solid black;
+  border-radius: 50%;
 }
 
 #level4 {
   float: left;
   margin-right: 2px;
-  width: .8em;
-  height: .8em;
-  background-color: blue;
-  border: .1em solid black;
+  width: .9em;
+  height: .9em;
+  background-color: #c4c2c2;
+  border: .05em solid black;
+  border-radius: 50%;
 }
 
 #level5 {
   float: left;
   margin-right: 2px;
-  width: .8em;
-  height: .8em;
-  background-color: blue;
-  border: .1em solid black;
+  width: .9em;
+  height: .9em;
+  background-color: #c4c2c2;
+  border: .05em solid black;
+  border-radius: 50%;
+}
+
+#frontEnd {
+  clear: both;
 }
