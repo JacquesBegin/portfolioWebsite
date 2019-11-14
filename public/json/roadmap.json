@@ -1,0 +1,36 @@
+{ "data": [
+  { 
+    "sectionTitle": "HTML",
+    "topics": [
+      {
+        "id": "",
+        "name": "Learn the basics",
+        "level": 1,
+        "resources": [],
+        "examples": []
+      },
+      {
+        "id": "",
+        "name": "Writing Semantic HTML",
+        "level": 1,
+        "resources": [],
+        "examples": []
+      },
+      {
+        "id": "",
+        "name": "Basic SEO",
+        "level": 1,
+        "resources": [],
+        "examples": []
+      },
+      {
+        "id": "",
+        "name": "Accessibility",
+        "level": 1,
+        "resources": [],
+        "examples": []
+      }
+    ]
+  }
+  ]
+}
