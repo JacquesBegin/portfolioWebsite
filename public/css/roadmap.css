@@ -15,7 +15,7 @@ a:visited {
   margin-left: 2em;
 }
 
-#level1 {
+#level {
   float: left;
   margin-right: 2px;
   width: .9em;
@@ -25,45 +25,7 @@ a:visited {
   border-radius: 50%;
 }
 
-#level2 {
-  float: left;
-  margin-right: 2px;
-  width: .9em;
-  height: .9em;
-  background-color: #c4c2c2;
-  border: .05em solid black;
-  border-radius: 50%;
-}
 
-#level3 {
-  float: left;
-  margin-right: 2px;
-  width: .9em;
-  height: .9em;
-  background-color: #c4c2c2;
-  border: .05em solid black;
-  border-radius: 50%;
-}
-
-#level4 {
-  float: left;
-  margin-right: 2px;
-  width: .9em;
-  height: .9em;
-  background-color: #c4c2c2;
-  border: .05em solid black;
-  border-radius: 50%;
-}
-
-#level5 {
-  float: left;
-  margin-right: 2px;
-  width: .9em;
-  height: .9em;
-  background-color: #c4c2c2;
-  border: .05em solid black;
-  border-radius: 50%;
-}
 
 #frontEnd {
   clear: both;
