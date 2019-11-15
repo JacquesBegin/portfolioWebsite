@@ -54,5 +54,10 @@
         Working on this project was very cool and gave me a nice introduction to creating a command line application. Next step is to research why I would want to create my own command line application and then make it happen!
     </article>
     <hr/>
+    <article>
+        11/15/2019
+        Created a file to manipulate the json by adding unique id's to every topic and subtopic. The function uses recursive functionality to search subtopics within subtopics. As I was creating the json data for the roadmap, I realized that it was possible for topics to have subtopics and that those subtopics themselves could have subtopics. So as the function to add uuid's runs, it checks for topics and assigns a uuid. Then it checks for subtopics, and if found calls an internally defined function to assign a uuid and check if that subtopic has subtopics. If it does the internal function is called for each subtopic and the cycle repeats until all nested subtopics have been assigned a uuid.
+    </article>
+    <hr/>
   </body>
 </html>
