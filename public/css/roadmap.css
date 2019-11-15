@@ -10,7 +10,7 @@ a:visited {
   color: #000000;
 }
 
-#levelSelector {
+.levelSelector {
   display: inline-block;
   margin-left: 2em;
 }
