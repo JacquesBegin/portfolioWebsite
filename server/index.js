@@ -2,12 +2,28 @@ const roadmapData = require("../public/json/roadmap");
 const fs = require("fs");
 const uuidv4 = require("uuid/v4");
 
-function addUUIDToTopics(file) {
-  console.log(typeof file);
+function addUUIDToJsonData(file) {
+
+  let searchSubtopics = (s_topic) => {
+      s_topic.id = uuidv4();
+      if (s_topic.subtopics) {
+        for (let s_s_topic of s_topic.subtopics) {
+          searchSubtopics(s_s_topic.subtopics);
+        }
+      }
+  }
+
   for (let section of file.data) {
-    for (let topic in section.topics) {
-      section.topics[topic].id = uuidv4();
-      console.log(section.topics[topic]);
+    section.id = uuidv4();
+    if (section.topics.length) {
+      for (let topic of section.topics) {
+        topic.id = uuidv4();
+        if (topic.subtopics.length) {
+          for (let subtopic of topic.subtopics) {
+            searchSubtopics(subtopic);
+          }
+        }
+      }
     }
   }
   fs.writeFile(`${__dirname}/../public/json/roadmap.json`, JSON.stringify(file), (err) => {
@@ -17,7 +33,6 @@ function addUUIDToTopics(file) {
     };
     console.log("Roadmap json file has been updated");
   });
-  console.log(typeof JSON.stringify(file));
 }
 
-// addUUIDToTopics(roadmapData);
+addUUIDToJsonData(roadmapData);
