@@ -24,7 +24,6 @@ function buildSubtopicSection(subtopicsData) {
       if (subtopic.subtopics.length) {
           skillSubtopicList.appendChild(buildSubtopicSection(subtopic.subtopics));
       }
-      
     }
   return skillSubtopicList;
 }
@@ -47,12 +46,9 @@ function buildTopicSection(topicData) {
       if (topic.subtopics.length) {
         skillSectionList.appendChild(buildSubtopicSection(topic.subtopics));
       }
-      
     }
     skillSection.appendChild(skillSectionList);
   }
-  
-  // document.getElementById("frontEnd").appendChild(skillSection);
   return skillSection;
 }
 
@@ -65,11 +61,8 @@ function buildRoadmap(roadmapData) {
 }
 
 
-// // A button to test events
+// A button to test events
 document.getElementById("button").addEventListener("click", function() {
   buildRoadmap(roadmapFullData);
 });
 
-
-
-// createLevelSelector();
