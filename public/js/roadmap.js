@@ -54,15 +54,10 @@ function buildTopicSection(topicData) {
 
 function buildRoadmap(roadmapData) {
   let frontEnd = document.getElementById("frontEnd");
-  frontEnd.innerHTML = "";
   for (const data of roadmapData.data) {
     frontEnd.appendChild(buildTopicSection(data));
   }
 }
 
-
-// A button to test events
-document.getElementById("button").addEventListener("click", function() {
-  buildRoadmap(roadmapFullData);
-});
+buildRoadmap(roadmapFullData);
 
