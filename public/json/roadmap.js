@@ -1,4 +1,4 @@
-{
+let roadmapFullData = {
   "data": [
     {
       "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
@@ -247,6 +247,123 @@
               "examples": []
             }
           ],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Package Manager",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "NPM",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "CSS Frameworks",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Bootstrap",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "1c2bede9-8a42-4c07-8e24-4a1706079a3d",
+          "name": "Materialize CSS",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "CSS Architecture",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "BEM",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Build Tools",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Linters",
+          "level": 1,
+          "subtopics": [
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "Prettier",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            },
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "ESLint",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            }
+          ],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Task Runners",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "NPM Scripts",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Gulp",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Module Bundlers",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Webpack",
+          "level": 1,
+          "subtopics": [],
           "resources": [],
           "examples": []
         }
