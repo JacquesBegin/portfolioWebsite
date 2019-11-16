@@ -1,5 +1,5 @@
 body {
-
+  margin: 1em;
 }
 
 a:link {
@@ -10,9 +10,37 @@ a:visited {
   color: #000000;
 }
 
+#frontEnd {
+  margin: auto;
+  width: 90%;
+}
+
+.topicSection {
+  margin: auto;
+  width: 70%;
+}
+
+ul {
+  padding-left: 2em;
+}
+
+li {
+  border-bottom: 1px solid #000000;
+  position: relative;
+  background-color: #ecf4ff;
+  height: 2em;
+  line-height: 2em;
+  padding: 0 1em 0 1em;
+}
+
 .levelSelector {
   display: inline-block;
-  margin-left: 2em;
+  /* margin-left: 2em; */
+  position: absolute;
+  top: 50%;
+  right: 0.5em;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .level {
@@ -26,7 +54,3 @@ a:visited {
 }
 
 
-
-#frontEnd {
-  clear: both;
-}
