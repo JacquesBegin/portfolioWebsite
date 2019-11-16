@@ -6,7 +6,7 @@ let roadmapFullData = {
       "topics": [
         {
           "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
-          "name": "Learn the basics",
+          "name": "Learn The Basics",
           "level": 1,
           "subtopics": [],
           "resources": [],
@@ -44,7 +44,7 @@ let roadmapFullData = {
       "topics": [
         {
           "id": "2ad3e5f0-d232-43a0-a91b-666ff05fb184",
-          "name": "Learn the basics",
+          "name": "Learn The Basics",
           "level": 1,
           "subtopics": [],
           "resources": [],
@@ -131,7 +131,7 @@ let roadmapFullData = {
       "topics": [
         {
           "id": "b73b6944-cec9-4370-8c4b-89f353954f06",
-          "name": "Syntax and basic constructs",
+          "name": "Syntax And Basic Constructs",
           "level": 1,
           "subtopics": [],
           "resources": [],
@@ -139,7 +139,7 @@ let roadmapFullData = {
         },
         {
           "id": "3624fe0b-f487-4e3d-be4b-52553e9dccf2",
-          "name": "Learn DOM manipulation",
+          "name": "Learn DOM Manipulation",
           "level": 1,
           "subtopics": [],
           "resources": [],
@@ -224,7 +224,7 @@ let roadmapFullData = {
             },
             {
               "id": "555a1f7c-88be-4e11-b2a1-7db54cb738a3",
-              "name": "How browsers work",
+              "name": "How Browsers Work",
               "level": 1,
               "subtopics": [],
               "resources": [],
@@ -362,6 +362,348 @@ let roadmapFullData = {
         {
           "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
           "name": "Webpack",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Single Page Applications",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "What They Are",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "How They Work",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Pros",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Cons",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Frameworks",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "React.js",
+          "level": 1,
+          "subtopics": [{
+            "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+            "name": "Redux",
+            "level": 1,
+            "subtopics": [],
+            "resources": [],
+            "examples": []
+          },
+          {
+            "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+            "name": "Mobx",
+            "level": 1,
+            "subtopics": [],
+            "resources": [],
+            "examples": []
+          }],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Angular",
+          "level": 1,
+          "subtopics": [{
+            "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+            "name": "RxJS",
+            "level": 1,
+            "subtopics": [],
+            "resources": [],
+            "examples": []
+          },
+          {
+            "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+            "name": "NgRx",
+            "level": 1,
+            "subtopics": [],
+            "resources": [],
+            "examples": []
+          }],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "CSS in JS",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Styled Components",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "CSS Modules",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Testing Apps",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Unit Testing",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Integration Testing",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Functional Testing",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Jest",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Enzyme",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Cypress",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Progressive Web Apps",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Storage",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Web Sockets",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Service Workers",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "PRPL Pattern",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "RAIL Model",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Performance Metrics",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Using Light House",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Using DevTools",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Type Checkers",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "TypeScript",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Server Side Rendering",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "React.js",
+          "level": 1,
+          "subtopics": [{
+            "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+            "name": "Next.js",
+            "level": 1,
+            "subtopics": [],
+            "resources": [],
+            "examples": []
+          }],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Angular",
+          "level": 1,
+          "subtopics": [{
+            "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+            "name": "Universal",
+            "level": 1,
+            "subtopics": [],
+            "resources": [],
+            "examples": []
+          }],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Static Site Generators",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "GatsbyJS",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Desktop Applications",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Electron",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Mobile Applications",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "React Native",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Web Assembly",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Web Assembly",
           "level": 1,
           "subtopics": [],
           "resources": [],
