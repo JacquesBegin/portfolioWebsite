@@ -19,13 +19,12 @@ function buildSubtopicSection(subtopicsData) {
     for (const subtopic of subtopicsData) {
       let listItem = document.createElement("li");
       listItem.innerHTML = subtopic.name;
-      if (subtopic.subtopics.length) {
-        for (const subtopic of subtopic.subtopics) {
-          listItem.innerHTML = buildSubtopicSection(subtopic);
-        }
-      }
       listItem.appendChild(buildLevelSelector(subtopic));
       skillSubtopicList.appendChild(listItem);
+      if (subtopic.subtopics.length) {
+          skillSubtopicList.appendChild(buildSubtopicSection(subtopic.subtopics));
+      }
+      
     }
   return skillSubtopicList;
 }
