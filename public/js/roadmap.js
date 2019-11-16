@@ -32,6 +32,7 @@ function buildSubtopicSection(subtopicsData) {
 
 function buildTopicSection(topicData) {
   let skillSection = document.createElement("div");
+  skillSection.className = "topicSection";
   skillSection.id = topicData.id;
   let skillSectionTitle = document.createElement("h3");
   skillSectionTitle.className = "skillSectionTitle";
@@ -43,10 +44,11 @@ function buildTopicSection(topicData) {
       let listItem = document.createElement("li");
       listItem.innerHTML = topic.name;
       listItem.appendChild(buildLevelSelector(topic));
-      if (topic.subtopics.length) {
-        listItem.appendChild(buildSubtopicSection(topic.subtopics));
-      }
       skillSectionList.appendChild(listItem);
+      if (topic.subtopics.length) {
+        skillSectionList.appendChild(buildSubtopicSection(topic.subtopics));
+      }
+      
     }
     skillSection.appendChild(skillSectionList);
   }
@@ -57,6 +59,7 @@ function buildTopicSection(topicData) {
 
 function buildRoadmap(roadmapData) {
   let frontEnd = document.getElementById("frontEnd");
+  frontEnd.innerHTML = "";
   for (const data of roadmapData.data) {
     frontEnd.appendChild(buildTopicSection(data));
   }
