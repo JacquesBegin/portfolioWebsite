@@ -53,9 +53,13 @@ function buildTopicSection(topicData) {
 }
 
 function buildRoadmap(roadmapData) {
-  let frontEnd = document.getElementById("frontEnd");
+  let roadmaps = document.getElementById("roadmaps");
+  roadmaps.innerHTML = "";
   for (const data of roadmapData.data) {
-    frontEnd.appendChild(buildTopicSection(data));
+    let roadmapTitle = document.createElement("h2");
+    roadmapTitle.innerHTML = data.roadmapTitle;
+    roadmaps.appendChild(roadmapTitle);
+    roadmaps.appendChild(buildTopicSection(data));
   }
 }
 
@@ -66,6 +70,9 @@ function buildRoadmapButtons() {
     let panel = document.createElement("div");
     panel.className = "roadmapPanel";
     panel.innerHTML = panelNames[x];
+    panel.addEventListener("click", function() {
+      // buildRoadmap()
+    })
     allPanels.appendChild(panel);
   }
 }
