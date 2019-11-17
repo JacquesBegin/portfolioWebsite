@@ -64,14 +64,28 @@ function buildRoadmap(roadmapData) {
 }
 
 function buildRoadmapButtons() {
-  const panelNames = ["Front End Roadmap", "Back End Roadmap", "Core Skills Roadmap"];
+  const panelData = [
+    { 
+      "title": "Front End Roadmap",
+      "data": roadmapFrontEndData
+    },
+    {
+      "title": "Back End Roadmap",
+      "data": roadmapBackEndData
+    },
+    {
+      "title": "Core Skills Roadmap",
+      "data": roadmapCoreSkillsData
+    }
+  ];
   let allPanels = document.getElementById("roadmapPanels");
-  for (let x = 0; x < panelNames.length; x++) {
+  for (let x = 0; x < panelData.length; x++) {
     let panel = document.createElement("div");
     panel.className = "roadmapPanel";
-    panel.innerHTML = panelNames[x];
+    console.log("panel:", panelData["title"]);
+    panel.innerHTML = panelData["title"];
     panel.addEventListener("click", function() {
-      // buildRoadmap()
+      buildRoadmap(panelData["data"]);
     })
     allPanels.appendChild(panel);
   }
@@ -79,5 +93,5 @@ function buildRoadmapButtons() {
 
 
 buildRoadmapButtons();
-buildRoadmap(roadmapFullData);
+buildRoadmap(roadmapFrontEndData);
 
