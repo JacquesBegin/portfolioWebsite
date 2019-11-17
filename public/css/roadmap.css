@@ -10,8 +10,12 @@ a:visited {
   color: #000000;
 }
 
-.roadmapPanels {
-  float: left;
+#roadmapPanels {
+  display: flex;
+}
+
+.roadmapPanel {
+  flex: 1;
   height: 2em;
   background-color: #6f6fff;
   border: 0.1em solid #000000;
