@@ -82,10 +82,10 @@ function buildRoadmapButtons() {
   for (let x = 0; x < panelData.length; x++) {
     let panel = document.createElement("div");
     panel.className = "roadmapPanel";
-    console.log("panel:", panelData["title"]);
-    panel.innerHTML = panelData["title"];
+    console.log("panel:", panelData[x]["title"]);
+    panel.innerHTML = panelData[x]["title"];
     panel.addEventListener("click", function() {
-      buildRoadmap(panelData["data"]);
+      buildRoadmap(panelData[x]["data"]);
     })
     allPanels.appendChild(panel);
   }
