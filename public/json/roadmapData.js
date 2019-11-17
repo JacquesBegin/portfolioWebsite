@@ -711,5 +711,6 @@ let roadmapFullData = {
         }
       ]
     }
-  ]
+  ],
+  "roadmapTitle": "Front End Web Development Roadmap/Skills"
 }
