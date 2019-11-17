@@ -55,10 +55,10 @@ function buildTopicSection(topicData) {
 function buildRoadmap(roadmapData) {
   let roadmaps = document.getElementById("roadmaps");
   roadmaps.innerHTML = "";
-  for (const data of roadmapData.data) {
-    let roadmapTitle = document.createElement("h2");
-    roadmapTitle.innerHTML = data.roadmapTitle;
+  let roadmapTitle = document.createElement("h2");
+    roadmapTitle.innerHTML = roadmapData.roadmapTitle;
     roadmaps.appendChild(roadmapTitle);
+  for (const data of roadmapData.data) {
     roadmaps.appendChild(buildTopicSection(data));
   }
 }
