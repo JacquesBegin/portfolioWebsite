@@ -59,5 +59,18 @@ function buildRoadmap(roadmapData) {
   }
 }
 
+function buildRoadmapButtons() {
+  const panelNames = ["Front End Roadmap", "Back End Roadmap", "Core Skills Roadmap"];
+  let allPanels = document.getElementById("roadmapPanels");
+  for (let x = 0; x < panelNames.length; x++) {
+    let panel = document.createElement("div");
+    panel.className = "roadmapPanel";
+    panel.innerHTML = panelNames[x];
+    allPanels.appendChild(panel);
+  }
+}
+
+
+buildRoadmapButtons();
 buildRoadmap(roadmapFullData);
 
