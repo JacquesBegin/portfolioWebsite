@@ -35,12 +35,15 @@
     </section>
 
     <footer>
-      <div>&copy; <span id="copyrightYear"></span> Jacques Begin</div>
+      <div id="footerContent">
+          <div>&copy; <span id="copyrightYear"></span> Jacques Begin</div>
 
-      <script>
-        var date = new Date();
-        document.getElementById("copyrightYear").innerHTML = date.getFullYear();
-      </script>
+          <script>
+            var date = new Date();
+            document.getElementById("copyrightYear").innerHTML = date.getFullYear();
+          </script>
+      </div>
+      
     </footer>
   </body>
   <script src="../data/roadmapFrontEndData.js"></script>
