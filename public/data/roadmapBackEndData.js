@@ -308,6 +308,62 @@ let roadmapBackEndData = {
           "examples": []
         }
       ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Practical Time",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Create Application With Learned Knowledge",
+          "level": 1,
+          "subtopics": [
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "Implement Registration",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            },
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "Implement Login",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            },
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "Implement CRUD",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            }
+          ],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Possible Project: Blog",
+          "level": 1,
+          "subtopics": [
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            }
+          ],
+          "resources": [],
+          "examples": []
+        }
+      ]
     }
   ],
   "roadmapTitle": "Back End Web Development Roadmap/Skills"
