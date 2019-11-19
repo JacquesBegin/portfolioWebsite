@@ -2,37 +2,169 @@ let roadmapBackEndData = {
   "data": [
     {
       "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
-      "sectionTitle": "HTML",
+      "sectionTitle": "Environment",
       "topics": [
         {
           "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
-          "name": "Learn The Basics",
+          "name": "NodeJS",
           "level": 1,
-          "subtopics": [],
+          "subtopics": [{
+            "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+            "name": "JavaScript",
+            "level": 1,
+            "subtopics": [],
+            "resources": [],
+            "examples": []
+          },
+          {
+            "id": "1c2bede9-8a42-4c07-8e24-4a1706079a3d",
+            "name": "TypeScript",
+            "level": 1,
+            "subtopics": [],
+            "resources": [],
+            "examples": []
+          }],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Practice - Command Line Applications",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Fetch and Save Reddit Posts",
+          "level": 1,
+          "subtopics": [
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "Get Posts From /r/programming",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            }
+          ],
           "resources": [],
           "examples": []
         },
         {
           "id": "1c2bede9-8a42-4c07-8e24-4a1706079a3d",
-          "name": "Writing Semantic HTML",
+          "name": "Create Directory Structure",
+          "level": 1,
+          "subtopics": [
+            {
+              "id": "1c2bede9-8a42-4c07-8e24-4a1706079a3d",
+              "name": "In JSON Format",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            }
+          ],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "1c2bede9-8a42-4c07-8e24-4a1706079a3d",
+          "name": "Read JSON Directory Data",
+          "level": 1,
+          "subtopics": [
+            {
+              "id": "1c2bede9-8a42-4c07-8e24-4a1706079a3d",
+              "name": "Create Directory Structure",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            }
+          ],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "1c2bede9-8a42-4c07-8e24-4a1706079a3d",
+          "name": "Automate A Common Task",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Learn Package Manager",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "NPM",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Standards and Best Practices",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "NodeJS",
           "level": 1,
           "subtopics": [],
           "resources": [],
           "examples": []
         },
         {
-          "id": "8cdece69-d8e5-466d-9254-5f63e05322ca",
-          "name": "Basic SEO",
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Security",
+          "level": 1,
+          "subtopics": [
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "OWASP",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            }
+          ],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Standards and Best Practices",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "NodeJS",
           "level": 1,
           "subtopics": [],
           "resources": [],
           "examples": []
         },
         {
-          "id": "956c403b-bbc5-4f3c-b5ef-31aba37b2f78",
-          "name": "Accessibility",
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Security",
           "level": 1,
-          "subtopics": [],
+          "subtopics": [
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "OWASP",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            }
+          ],
           "resources": [],
           "examples": []
         }
