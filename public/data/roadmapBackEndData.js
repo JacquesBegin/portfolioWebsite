@@ -353,12 +353,37 @@ let roadmapBackEndData = {
           "subtopics": [
             {
               "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
-              "name": "",
+              "name": "Registration Page",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            },
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "Display Public Profile Page",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            },
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "Create, Update, Delete Posts",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            },
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "Display Posts On Profile Page",
               "level": 1,
               "subtopics": [],
               "resources": [],
               "examples": []
             }
+            
           ],
           "resources": [],
           "examples": []
