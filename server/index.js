@@ -1,4 +1,6 @@
-const roadmapData = require("../public/json/roadmap");
+const roadmapFrontEndData = require("../public/data/roadmapFrontEndData");
+const roadmapBackEndData = require("../public/data/roadmapBackEndData");
+const roadmapCoreSkillsData = require("../public/data/roadmapCoreSkillsData");
 const fs = require("fs");
 const uuidv4 = require("uuid/v4");
 
@@ -35,4 +37,6 @@ function addUUIDToJsonData(file) {
   });
 }
 
-addUUIDToJsonData(roadmapData);
+addUUIDToJsonData(roadmapFrontEndData);
+addUUIDToJsonData(roadmapBackEndData);
+addUUIDToJsonData(roadmapCoreSkillsData);
