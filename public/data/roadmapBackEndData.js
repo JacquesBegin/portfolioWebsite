@@ -207,6 +207,107 @@ let roadmapBackEndData = {
           "examples": []
         }
       ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Learn Testing",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Unit and Integration Testing",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Learn Testing Terminologies",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Testing Frameworks",
+          "level": 1,
+          "subtopics": [
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "Mocha",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            },
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "Chai",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            },
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "Sinon",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            },
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "Mockery",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            },
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "Ava",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            },
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "Jasmine",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            }
+          ],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Write Tests For Completed Projects",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Learn Relational Databases",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "PostgreSQL",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        }
+      ]
     }
   ],
   "roadmapTitle": "Back End Web Development Roadmap/Skills"
