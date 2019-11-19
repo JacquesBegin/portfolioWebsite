@@ -141,24 +141,62 @@ let roadmapBackEndData = {
     },
     {
       "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
-      "sectionTitle": "Standards and Best Practices",
+      "sectionTitle": "Package/Library",
       "topics": [
         {
           "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
-          "name": "NodeJS",
+          "name": "Create Package",
           "level": 1,
-          "subtopics": [],
+          "subtopics": [
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "Use Standards and Best Practices",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            }
+          ],
           "resources": [],
           "examples": []
         },
         {
           "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
-          "name": "Security",
+          "name": "Distribute Package",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Contribute To Open Source Projects",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Search GitHub Projects",
           "level": 1,
           "subtopics": [
             {
               "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
-              "name": "OWASP",
+              "name": "Refactor And Implement Best Practices",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            },
+            {
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "Resolve Open Issues",
+              "level": 1,
+              "subtopics": [],
+              "resources": [],
+              "examples": []
+            },{
+              "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+              "name": "Add Additional Functionality",
               "level": 1,
               "subtopics": [],
               "resources": [],
