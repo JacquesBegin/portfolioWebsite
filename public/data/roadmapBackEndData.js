@@ -429,11 +429,58 @@ let roadmapBackEndData = {
               "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
               "name": "Protect From SQL Injection Attacks",
               "level": 1,
-              "subtopics": [],
+              "subtopics": [
+                {
+                  "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+                  "name": "Analyze Queries",
+                  "level": 1,
+                  "subtopics": [],
+                  "resources": [
+                    "https://www.esecurityplanet.com/threats/how-to-prevent-sql-injection-attacks.html"
+                  ],
+                  "examples": []
+                }
+              ],
               "resources": [],
               "examples": []
             }
           ],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Learn A Framework",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Express.js",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        },
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Hapi.js",
+          "level": 1,
+          "subtopics": [],
+          "resources": [],
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "29ba1c01-423f-40f0-bc28-e7a842e3eda3",
+      "sectionTitle": "Practical Time",
+      "topics": [
+        {
+          "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
+          "name": "Remake Previous App With A Framework",
+          "level": 1,
+          "subtopics": [],
           "resources": [],
           "examples": []
         }
