@@ -19,8 +19,9 @@ a:visited {
   height: 2em;
   line-height: 2em;
   text-align: center;
-  background-color: #6f6fff;
-  color: #ffffff;
+  /* background-color: #6f6fff; */
+  background-color: #ffffff;
+  color: #000000;
   text-decoration: underline;
   text-transform: uppercase;
   user-select: none;
