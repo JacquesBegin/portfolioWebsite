@@ -173,3 +173,5 @@ let roadmapCoreSkillsData = {
   ],
   "roadmapTitle": "Core Skills Web Development Roadmap"
 }
+
+module.exports = roadmapCoreSkillsData;
