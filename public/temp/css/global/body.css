@@ -1,0 +1,16 @@
+body {
+  box-sizing: border-box;
+  font-family: georgia, arial, sans-serif;
+  color: #ffffff; }
+
+.warning {
+  color: #ff0000; }
+
+@media only screen and (min-width: 701px) {
+  .top-of-page-spacer {
+    height: 101px; } }
+@media only screen and (max-width: 701px) {
+  .top-of-page-spacer {
+    height: 49px; } }
+
+/*# sourceMappingURL=body.css.map */

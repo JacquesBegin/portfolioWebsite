@@ -376,8 +376,7 @@ body {
     width: 60px;
     margin: 30px 10px 10px 0;
     padding: 10px 10px;
-    text-decoration: none;
-    box-shadow: 1px 1px 1px #000000; } }
+    text-decoration: none; } }
 @media only screen and (max-width: 700px) {
   .navbar {
     height: auto; }
