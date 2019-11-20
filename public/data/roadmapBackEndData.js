@@ -35,7 +35,7 @@ let roadmapBackEndData = {
       "topics": [
         {
           "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
-          "name": "Fetch and Save Reddit Posts",
+          "name": "Fetch And Save Reddit Posts",
           "level": 1,
           "subtopics": [
             {
@@ -150,7 +150,7 @@ let roadmapBackEndData = {
           "subtopics": [
             {
               "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
-              "name": "Use Standards and Best Practices",
+              "name": "Use Standards And Best Practices",
               "level": 1,
               "subtopics": [],
               "resources": [],
@@ -214,7 +214,7 @@ let roadmapBackEndData = {
       "topics": [
         {
           "id": "adb7b2cc-73c1-428e-b95b-5324276b9e1f",
-          "name": "Unit and Integration Testing",
+          "name": "Unit And Integration Testing",
           "level": 1,
           "subtopics": [],
           "resources": [],
