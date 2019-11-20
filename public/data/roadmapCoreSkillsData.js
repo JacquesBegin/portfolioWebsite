@@ -174,4 +174,5 @@ let roadmapCoreSkillsData = {
   "roadmapTitle": "Core Skills Web Development Roadmap"
 }
 
-module.exports = roadmapCoreSkillsData;
+// Use only for creating new id's
+// module.exports = roadmapCoreSkillsData;
