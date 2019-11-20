@@ -37,6 +37,7 @@ function addUUIDToJsonData(file) {
   });
 }
 
-addUUIDToJsonData(roadmapFrontEndData);
-addUUIDToJsonData(roadmapBackEndData);
-addUUIDToJsonData(roadmapCoreSkillsData);
+// To update id's, uncomment module exports in each file.
+// addUUIDToJsonData(roadmapFrontEndData);
+// addUUIDToJsonData(roadmapBackEndData);
+// addUUIDToJsonData(roadmapCoreSkillsData);
