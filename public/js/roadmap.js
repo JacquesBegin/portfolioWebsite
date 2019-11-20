@@ -19,11 +19,15 @@ function buildSubtopicSection(subtopicsData) {
     for (const subtopic of subtopicsData) {
       let listItem = document.createElement("li");
       listItem.innerHTML = subtopic.name;
+      if (subtopic.subtopics.length) {
+        for (const sub of subtopic.subtopics) {
+          listItem.innerHTML = buildSubtopicSection(sub.subtopics);
+        }
+        // listItem.appendChild(buildSubtopicSection(subtopic.subtopics));
+      }
       listItem.appendChild(buildLevelSelector(subtopic));
       skillSubtopicList.appendChild(listItem);
-      if (subtopic.subtopics.length) {
-          skillSubtopicList.appendChild(buildSubtopicSection(subtopic.subtopics));
-      }
+      
     }
   return skillSubtopicList;
 }
@@ -42,10 +46,10 @@ function buildTopicSection(topicData) {
       let listItem = document.createElement("li");
       listItem.innerHTML = topic.name;
       listItem.appendChild(buildLevelSelector(topic));
-      skillSectionList.appendChild(listItem);
       if (topic.subtopics.length) {
-        skillSectionList.appendChild(buildSubtopicSection(topic.subtopics));
+        listItem.appendChild(buildSubtopicSection(topic.subtopics));
       }
+      skillSectionList.appendChild(listItem);
     }
     skillSection.appendChild(skillSectionList);
   }
