@@ -714,3 +714,5 @@ let roadmapFrontEndData = {
   ],
   "roadmapTitle": "Front End Web Development Roadmap/Skills"
 }
+
+module.exports = roadmapFrontEndData;
