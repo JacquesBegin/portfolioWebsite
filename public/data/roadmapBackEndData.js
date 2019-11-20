@@ -489,3 +489,5 @@ let roadmapBackEndData = {
   ],
   "roadmapTitle": "Back End Web Development Roadmap/Skills"
 }
+
+module.exports = roadmapBackEndData;
