@@ -22,16 +22,11 @@ function buildSubtopicSection(subtopicsData) {
       innerHTMLDiv.className = "innerHTMLDiv";
       innerHTMLDiv.innerHTML = subtopic.name;
       listItem.appendChild(innerHTMLDiv);
-      // listItem.innerHTML = subtopic.name;
       if (subtopic.subtopics.length) {
-        for (const sub of subtopic.subtopics) {
-          listItem.innerHTML = buildSubtopicSection(sub.subtopics);
-        }
-        // listItem.appendChild(buildSubtopicSection(subtopic.subtopics));
+        listItem.appendChild(buildSubtopicSection(subtopic.subtopics));
       }
       listItem.appendChild(buildLevelSelector(subtopic));
       skillSubtopicList.appendChild(listItem);
-      
     }
   return skillSubtopicList;
 }
@@ -45,19 +40,7 @@ function buildTopicSection(topicData) {
   skillSectionTitle.innerHTML = topicData.sectionTitle;
   skillSection.appendChild(skillSectionTitle);
   if (topicData.topics.length) {
-    let skillSectionList = document.createElement("ul");
-    for (const topic of topicData.topics) {
-      let listItem = document.createElement("li");
-      let innerHTMLDiv = document.createElement("div");
-      innerHTMLDiv.className = "innerHTMLDiv";
-      innerHTMLDiv.innerHTML = topic.name;
-      listItem.appendChild(innerHTMLDiv);
-      listItem.appendChild(buildLevelSelector(topic));
-      if (topic.subtopics.length) {
-        listItem.appendChild(buildSubtopicSection(topic.subtopics));
-      }
-      skillSectionList.appendChild(listItem);
-    }
+    let skillSectionList = buildSubtopicSection(topicData.topics);
     skillSection.appendChild(skillSectionList);
   }
   return skillSection;
