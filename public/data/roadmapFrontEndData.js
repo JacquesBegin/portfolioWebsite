@@ -713,7 +713,13 @@ let roadmapFrontEndData = {
     }
   ],
   "roadmapTitle": "Front End Web Development Roadmap/Skills",
-  "fileName": "roadmapFrontEndData"
+  "fileName": "roadmapFrontEndData",
+  "setFileData": function(newData) {
+    this.data = newData;
+  },
+  "getFileData": function() {
+    return this.data;
+  }
 }
 
 // Use only for creating new id's
