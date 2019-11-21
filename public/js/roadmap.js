@@ -18,7 +18,11 @@ function buildSubtopicSection(subtopicsData) {
   let skillSubtopicList = document.createElement("ul");
     for (const subtopic of subtopicsData) {
       let listItem = document.createElement("li");
-      listItem.innerHTML = subtopic.name;
+      let innerHTMLDiv = document.createElement("div");
+      innerHTMLDiv.className = "innerHTMLDiv";
+      innerHTMLDiv.innerHTML = subtopic.name;
+      listItem.appendChild(innerHTMLDiv);
+      // listItem.innerHTML = subtopic.name;
       if (subtopic.subtopics.length) {
         for (const sub of subtopic.subtopics) {
           listItem.innerHTML = buildSubtopicSection(sub.subtopics);
@@ -44,7 +48,10 @@ function buildTopicSection(topicData) {
     let skillSectionList = document.createElement("ul");
     for (const topic of topicData.topics) {
       let listItem = document.createElement("li");
-      listItem.innerHTML = topic.name;
+      let innerHTMLDiv = document.createElement("div");
+      innerHTMLDiv.className = "innerHTMLDiv";
+      innerHTMLDiv.innerHTML = topic.name;
+      listItem.appendChild(innerHTMLDiv);
       listItem.appendChild(buildLevelSelector(topic));
       if (topic.subtopics.length) {
         listItem.appendChild(buildSubtopicSection(topic.subtopics));
@@ -86,7 +93,6 @@ function buildRoadmapButtons() {
   for (let x = 0; x < panelData.length; x++) {
     let panel = document.createElement("div");
     panel.className = "roadmapPanel";
-    console.log("panel:", panelData[x]["title"]);
     panel.innerHTML = panelData[x]["title"];
     panel.addEventListener("click", function() {
       buildRoadmap(panelData[x]["data"]);

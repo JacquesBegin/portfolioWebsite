@@ -30,15 +30,18 @@ a:visited {
 }
 
 #roadmaps {
-  clear: both;
   margin: auto;
   margin-bottom: 5em;
   width: 90%;
+  /* text-align: center; */
+  /* align-items: center; */
+
 }
 
 .topicSection {
   margin: auto;
   width: 70%;
+  /* display: inline-block; */
 }
 
 ul {
@@ -46,19 +49,27 @@ ul {
 }
 
 li {
-  border-bottom: 1px solid #000000;
+  /* border-bottom: 1px solid #000000; */
+  /* border: 1px solid #000000; */
   position: relative;
-  background-color: #ecf4ff;
-  height: 2em;
+  /* background-color: #ecf4ff; */
+  /* min-height: 2em; */
   line-height: 2em;
-  padding: 0 1em 0 1em;
+  /* padding: 0 0 0 1em; */
+  /* text-decoration: underline; */
+}
+
+.innerHTMLDiv {
+  border-bottom: 1px solid #000000;
+  padding-left: 1em;
+  background-color: #ecf4ff;
 }
 
 .levelSelector {
-  display: inline-block;
-  /* margin-left: 2em; */
+  /* display: inline-block; */
+  /* float: right; */
   position: absolute;
-  top: 50%;
+  top: 1em;
   right: 0.5em;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
