@@ -712,8 +712,9 @@ let roadmapFrontEndData = {
       ]
     }
   ],
-  "roadmapTitle": "Front End Web Development Roadmap/Skills"
+  "roadmapTitle": "Front End Web Development Roadmap/Skills",
+  "fileName": "roadmapFrontEndData"
 }
 
 // Use only for creating new id's
-// module.exports = roadmapFrontEndData;
+module.exports = roadmapFrontEndData;
