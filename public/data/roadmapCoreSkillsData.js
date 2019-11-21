@@ -171,8 +171,9 @@ let roadmapCoreSkillsData = {
       ]
     }
   ],
-  "roadmapTitle": "Core Skills Web Development Roadmap"
+  "roadmapTitle": "Core Skills Web Development Roadmap",
+  "fileName": "roadmapCoreSkillsData"
 }
 
 // Use only for creating new id's
-// module.exports = roadmapCoreSkillsData;
+module.exports = roadmapCoreSkillsData;
