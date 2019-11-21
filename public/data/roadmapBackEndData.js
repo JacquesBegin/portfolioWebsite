@@ -487,8 +487,9 @@ let roadmapBackEndData = {
       ]
     }
   ],
-  "roadmapTitle": "Back End Web Development Roadmap/Skills"
+  "roadmapTitle": "Back End Web Development Roadmap/Skills",
+  "fileName": "roadmapBackEndData"
 }
 
 // Use only for creating new id's
-// module.exports = roadmapBackEndData;
+module.exports = roadmapBackEndData;
