@@ -493,4 +493,5 @@ let roadmapBackEndData = {
   fileName: "roadmapBackEndData"
 };
 
-module.exports = roadmapBackEndData;
+// Uncomment to use file in server/index.js
+// module.exports = roadmapBackEndData;

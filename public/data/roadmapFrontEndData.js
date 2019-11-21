@@ -724,4 +724,5 @@ let roadmapFrontEndData = {
   fileName: "roadmapFrontEndData"
 };
 
-module.exports = roadmapFrontEndData;
+// Uncomment to use file in server/index.js
+// module.exports = roadmapFrontEndData;

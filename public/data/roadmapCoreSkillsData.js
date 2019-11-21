@@ -175,4 +175,5 @@ let roadmapCoreSkillsData = {
   fileName: "roadmapCoreSkillsData"
 };
 
-module.exports = roadmapCoreSkillsData;
+// Uncomment to use file in server/index.js
+// module.exports = roadmapCoreSkillsData;
