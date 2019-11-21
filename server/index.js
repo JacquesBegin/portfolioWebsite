@@ -29,7 +29,7 @@ function addUUIDToJsonData(roadmapfile) {
     }
   }
 
-  fs.writeFile(`${__dirname}/../public/data/${roadmapfile.fileName}.js`, `let roadmapFrontEndData = ${JSON.stringify(roadmapfile)}\n\nmodule.exports = ${roadmapfile.fileName};`, (err) => {
+  fs.writeFile(`${__dirname}/../public/data/${roadmapfile.fileName}.js`, `let ${roadmapfile.fileName} = ${JSON.stringify(roadmapfile)}\n\nmodule.exports = ${roadmapfile.fileName};`, (err) => {
     if (err) {
       console.error(err);
       return;
@@ -40,6 +40,6 @@ function addUUIDToJsonData(roadmapfile) {
 
 
 // To update id's, uncomment module exports in each file.
-addUUIDToJsonData(roadmapFrontEndData);
-// addUUIDToJsonData(roadmapBackEndData);
-// addUUIDToJsonData(roadmapCoreSkillsData);
+// addUUIDToJsonData(roadmapFrontEndData);
+addUUIDToJsonData(roadmapBackEndData);
+addUUIDToJsonData(roadmapCoreSkillsData);
