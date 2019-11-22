@@ -710,14 +710,14 @@ body {
   display: inline-block;
   margin-right: 5rem;
   font-size: 1.5rem;
-  color: #ffffff;
+  color: #000000;
   text-decoration: none; }
 
 .contact__collection__content__icons__section-last {
   display: inline-block;
   margin-right: 0;
   font-size: 1.5rem;
-  color: #ffffff;
+  color: #000000;
   text-decoration: none; }
 
 .contact__collection__content__icons__i {
@@ -757,7 +757,8 @@ body {
   margin: .5rem;
   padding: 1rem;
   text-align: center;
-  background-color: #5596e6;
+  background-color: #000000;
+  color: #ffffff;
   border-radius: 3px; }
 
 @media only screen and (max-width: 500px) {
