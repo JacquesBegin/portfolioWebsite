@@ -3,11 +3,11 @@
 }
 
 @mixin bodyPanelContent {
-  background-color: $mediumBlue;
+  background-color: $white;
   margin: 0 auto 0 auto;
   text-align: center;
   border: $white 1px solid;
-  box-shadow: 1px 1px 1px $black;
+  box-shadow: 1px 1px 1px $darkBlue;
 }
 
 @mixin bodyPanelMax700 {
