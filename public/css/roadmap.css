@@ -19,7 +19,6 @@ a:visited {
   height: 2em;
   line-height: 2em;
   text-align: center;
-  /* background-color: #6f6fff; */
   background-color: #ffffff;
   color: #000000;
   text-decoration: underline;
@@ -33,15 +32,11 @@ a:visited {
   margin: auto;
   margin-bottom: 5em;
   width: 90%;
-  /* text-align: center; */
-  /* align-items: center; */
-
 }
 
 .topicSection {
   margin: auto;
   width: 70%;
-  /* display: inline-block; */
 }
 
 ul {
@@ -49,14 +44,8 @@ ul {
 }
 
 li {
-  /* border-bottom: 1px solid #000000; */
-  /* border: 1px solid #000000; */
   position: relative;
-  /* background-color: #ecf4ff; */
-  /* min-height: 2em; */
   line-height: 2em;
-  /* padding: 0 0 0 1em; */
-  /* text-decoration: underline; */
 }
 
 .innerHTMLDiv {
@@ -66,8 +55,6 @@ li {
 }
 
 .levelSelector {
-  /* display: inline-block; */
-  /* float: right; */
   position: absolute;
   top: 1em;
   right: 0.5em;
@@ -87,7 +74,6 @@ li {
 
 footer {
   position: fixed;
-  /* right: 0; */
   bottom: 0;
   width: 100%;
   margin-left: -2em;
@@ -95,7 +81,6 @@ footer {
 }
 
 #footerContent {
-  /* margin: 1em; */
   background-color: #ffffff;
   color: #000000;
   font-family: 'Courier New', Courier, monospace;
