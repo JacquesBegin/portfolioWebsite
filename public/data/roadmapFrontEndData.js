@@ -536,6 +536,14 @@ let roadmapFrontEndData = {
           subtopics: [],
           resources: [],
           examples: []
+        },
+        {
+          id: "f3erty84-4e20-90dc-b3u7-8e4189c1gf0f",
+          name: "Protractor - For Angular",
+          level: 1,
+          subtopics: [],
+          resources: [],
+          examples: []
         }
       ]
     },
