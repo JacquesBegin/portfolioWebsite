@@ -7,7 +7,7 @@ let roadmapCoreSkillsData = {
         {
           id: "f62611f8-4a77-4190-8f72-731fb42073b0",
           name: "Version Control",
-          level: 1,
+          level: 3,
           subtopics: [],
           resources: [],
           examples: []
@@ -21,7 +21,7 @@ let roadmapCoreSkillsData = {
         {
           id: "a3177e86-68c1-4866-8092-de781cd29d02",
           name: "Mac",
-          level: 1,
+          level: 3,
           subtopics: [],
           resources: [],
           examples: []
@@ -29,7 +29,7 @@ let roadmapCoreSkillsData = {
         {
           id: "ea991b32-b4a4-4782-ad77-3f284e326c25",
           name: "Linux",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -43,7 +43,7 @@ let roadmapCoreSkillsData = {
         {
           id: "e3b5aaa3-e247-4148-a83d-8dd2b825cbcc",
           name: "Secure Shell",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -57,7 +57,7 @@ let roadmapCoreSkillsData = {
         {
           id: "335310fd-6cec-4985-9c1e-f68644b0c085",
           name: "Data Structures",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -65,7 +65,7 @@ let roadmapCoreSkillsData = {
         {
           id: "61009d82-4042-4340-9c6d-1158134c5fc3",
           name: "Algorithms",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -95,7 +95,7 @@ let roadmapCoreSkillsData = {
         {
           id: "7dbe836f-47c7-4016-9e13-66bccfde4c33",
           name: "API's",
-          level: 1,
+          level: 2,
           subtopics: [],
           resources: [],
           examples: []
@@ -109,7 +109,7 @@ let roadmapCoreSkillsData = {
         {
           id: "e9cf3402-636d-4608-b445-71feea9e5e92",
           name: "YAGNI",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -117,7 +117,7 @@ let roadmapCoreSkillsData = {
         {
           id: "4ffc30fb-a528-400c-b94e-460e423a7205",
           name: "KISS",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -125,7 +125,7 @@ let roadmapCoreSkillsData = {
         {
           id: "aecfd1b2-5fd5-4da5-83a7-9f6f8a47c7f2",
           name: "SOLID",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -139,7 +139,7 @@ let roadmapCoreSkillsData = {
         {
           id: "318bcaf1-6e0f-4525-b7a3-03cefa290c8d",
           name: "GitHub",
-          level: 1,
+          level: 3,
           subtopics: [],
           resources: [],
           examples: []
@@ -155,7 +155,7 @@ let roadmapCoreSkillsData = {
         {
           id: "4f9090b8-25db-4038-83d0-c46db5ec7c82",
           name: "Semantic Versioning",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -163,7 +163,7 @@ let roadmapCoreSkillsData = {
         {
           id: "dafe6413-d6a8-44c1-b794-5a98ca8f1c47",
           name: "Character Encoding",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
