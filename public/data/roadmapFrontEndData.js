@@ -7,7 +7,7 @@ let roadmapFrontEndData = {
         {
           id: "b66a74e1-4e23-424a-9138-bd883272d908",
           name: "Learn The Basics",
-          level: 1,
+          level: 3,
           subtopics: [],
           resources: [],
           examples: []
@@ -15,7 +15,7 @@ let roadmapFrontEndData = {
         {
           id: "7e3fc4e6-7d1a-407e-90c6-8e36ae75ef2b",
           name: "Writing Semantic HTML",
-          level: 1,
+          level: 2,
           subtopics: [],
           resources: [],
           examples: []
@@ -45,7 +45,7 @@ let roadmapFrontEndData = {
         {
           id: "7c975620-440e-4e24-adb3-358b0efdd09c",
           name: "Learn The Basics",
-          level: 1,
+          level: 3,
           subtopics: [],
           resources: [],
           examples: []
@@ -53,12 +53,12 @@ let roadmapFrontEndData = {
         {
           id: "d6a12e00-469c-4664-8305-35485624c2bb",
           name: "Making Layouts",
-          level: 1,
+          level: 3,
           subtopics: [
             {
               id: "348ec877-fb46-44eb-8600-bc54cffe626e",
               name: "Floats",
-              level: 1,
+              level: 3,
               subtopics: [],
               resources: [],
               examples: []
@@ -66,7 +66,7 @@ let roadmapFrontEndData = {
             {
               id: "abddfb68-b45f-49cd-b94f-e4e08eaa9eb2",
               name: "Positioning",
-              level: 1,
+              level: 3,
               subtopics: [],
               resources: [],
               examples: []
@@ -74,7 +74,7 @@ let roadmapFrontEndData = {
             {
               id: "6328a9d3-a74d-4f3c-b2c4-c3488f15ba52",
               name: "Display",
-              level: 1,
+              level: 3,
               subtopics: [],
               resources: [],
               examples: []
@@ -82,7 +82,7 @@ let roadmapFrontEndData = {
             {
               id: "b3738fa5-bf3c-403a-8647-19be7131acd1",
               name: "Box Model",
-              level: 1,
+              level: 0,
               subtopics: [],
               resources: [],
               examples: []
@@ -90,7 +90,7 @@ let roadmapFrontEndData = {
             {
               id: "ce1ab2be-97cb-4123-b20a-4246f77d8875",
               name: "CSS Grid",
-              level: 1,
+              level: 0,
               subtopics: [],
               resources: [],
               examples: []
@@ -110,7 +110,7 @@ let roadmapFrontEndData = {
         {
           id: "79e03d3a-00e6-44fc-a8ed-5cf86befab6f",
           name: "Media Queries",
-          level: 1,
+          level: 3,
           subtopics: [],
           resources: [],
           examples: []
@@ -118,7 +118,7 @@ let roadmapFrontEndData = {
         {
           id: "9d645b37-6b57-4c28-a9c3-22153ba10f09",
           name: "Learn CSS3",
-          level: 1,
+          level: 3,
           subtopics: [],
           resources: [],
           examples: []
@@ -132,7 +132,7 @@ let roadmapFrontEndData = {
         {
           id: "d8ced927-9c6a-4c45-ad10-1ee7bda5c810",
           name: "Syntax And Basic Constructs",
-          level: 1,
+          level: 3,
           subtopics: [],
           resources: [],
           examples: []
@@ -140,7 +140,7 @@ let roadmapFrontEndData = {
         {
           id: "6aba7bb0-9353-4d6d-820f-8c0d2b699bab",
           name: "Learn DOM Manipulation",
-          level: 1,
+          level: 3,
           subtopics: [],
           resources: [],
           examples: []
@@ -148,7 +148,7 @@ let roadmapFrontEndData = {
         {
           id: "110f14f4-f94e-444e-acd3-85c04ecb28f1",
           name: "Learn Fetch API/Ajax (XHR)",
-          level: 1,
+          level: 2,
           subtopics: [],
           resources: [],
           examples: []
@@ -156,7 +156,7 @@ let roadmapFrontEndData = {
         {
           id: "fa142306-cbd3-49bc-aa7b-d49c4091225c",
           name: "ES6+",
-          level: 1,
+          level: 2,
           subtopics: [],
           resources: [],
           examples: []
@@ -164,7 +164,7 @@ let roadmapFrontEndData = {
         {
           id: "02ba2799-d6e3-406d-a13f-947305a184a0",
           name: "Modular JavaScript",
-          level: 1,
+          level: 2,
           subtopics: [],
           resources: [],
           examples: []
@@ -172,12 +172,12 @@ let roadmapFrontEndData = {
         {
           id: "6db584d2-6c02-48aa-8d3c-6a9e061075f4",
           name: "Specific Concepts",
-          level: 1,
+          level: 2,
           subtopics: [
             {
               id: "60c78f9a-f93c-4ea3-9116-fc73b0cf8f80",
               name: "Hoisting",
-              level: 1,
+              level: 3,
               subtopics: [],
               resources: [],
               examples: []
@@ -193,7 +193,7 @@ let roadmapFrontEndData = {
             {
               id: "aa507091-ef8f-48ef-8c45-4c36f515e461",
               name: "Scope",
-              level: 1,
+              level: 3,
               subtopics: [],
               resources: [],
               examples: []
@@ -225,7 +225,7 @@ let roadmapFrontEndData = {
             {
               id: "4b0f4320-98a7-49ad-a3e6-cfcfe40cddc0",
               name: "How Browsers Work",
-              level: 1,
+              level: 2,
               subtopics: [],
               resources: [],
               examples: []
@@ -241,7 +241,7 @@ let roadmapFrontEndData = {
             {
               id: "58c3796e-2529-424a-88a9-66cde0fedf25",
               name: "HTTP",
-              level: 1,
+              level: 2,
               subtopics: [],
               resources: [],
               examples: []
@@ -259,7 +259,7 @@ let roadmapFrontEndData = {
         {
           id: "c90f6e80-f4a5-475a-8cf4-533b4fdce86c",
           name: "NPM",
-          level: 1,
+          level: 3,
           subtopics: [],
           resources: [],
           examples: []
@@ -273,7 +273,7 @@ let roadmapFrontEndData = {
         {
           id: "b927a63c-963b-47b8-b4f2-04961a2b54d1",
           name: "Bootstrap",
-          level: 1,
+          level: 2,
           subtopics: [],
           resources: [],
           examples: []
@@ -281,7 +281,7 @@ let roadmapFrontEndData = {
         {
           id: "febb5297-72ae-46fd-9dcd-b19377e77a40",
           name: "Materialize CSS",
-          level: 1,
+          level: 2,
           subtopics: [],
           resources: [],
           examples: []
@@ -314,7 +314,7 @@ let roadmapFrontEndData = {
             {
               id: "994bb5c7-470f-40a6-9d76-1811b44bfb03",
               name: "Prettier",
-              level: 1,
+              level: 2,
               subtopics: [],
               resources: [],
               examples: []
@@ -340,7 +340,7 @@ let roadmapFrontEndData = {
         {
           id: "5d5224d3-959f-405a-81fe-adddfaaaacdd",
           name: "NPM Scripts",
-          level: 1,
+          level: 2,
           subtopics: [],
           resources: [],
           examples: []
@@ -348,7 +348,7 @@ let roadmapFrontEndData = {
         {
           id: "a9c42caa-f3ea-4c82-a3ab-024535414cb2",
           name: "Gulp",
-          level: 1,
+          level: 2,
           subtopics: [],
           resources: [],
           examples: []
@@ -414,12 +414,12 @@ let roadmapFrontEndData = {
         {
           id: "8abdfcba-eedd-45f7-9557-d088fc040df4",
           name: "React.js",
-          level: 1,
+          level: 2,
           subtopics: [
             {
               id: "1e96aedb-5deb-4f17-a3e6-937693f9ea5e",
               name: "Redux",
-              level: 1,
+              level: 0,
               subtopics: [],
               resources: [],
               examples: []
@@ -427,7 +427,7 @@ let roadmapFrontEndData = {
             {
               id: "a14bf910-6b24-4d3a-ac3c-32a716790945",
               name: "Mobx",
-              level: 1,
+              level: 0,
               subtopics: [],
               resources: [],
               examples: []
@@ -439,12 +439,12 @@ let roadmapFrontEndData = {
         {
           id: "1573d30a-584d-4e76-a3bd-ddd9fbf8888a",
           name: "Angular",
-          level: 1,
+          level: 2,
           subtopics: [
             {
               id: "67a05b1e-f44d-4449-9608-6dc1be8d9d1f",
               name: "RxJS",
-              level: 1,
+              level: 0,
               subtopics: [],
               resources: [],
               examples: []
@@ -452,7 +452,7 @@ let roadmapFrontEndData = {
             {
               id: "b4fae7dc-a0c1-4089-abbe-b2bbf8ff9332",
               name: "NgRx",
-              level: 1,
+              level: 0,
               subtopics: [],
               resources: [],
               examples: []
@@ -470,7 +470,7 @@ let roadmapFrontEndData = {
         {
           id: "4cc81a5d-09bb-48a6-b530-4f937ce76b16",
           name: "Styled Components",
-          level: 1,
+          level: 2,
           subtopics: [],
           resources: [],
           examples: []
@@ -492,7 +492,7 @@ let roadmapFrontEndData = {
         {
           id: "2b342827-c278-4d65-b6d2-3a6f762af472",
           name: "Unit Testing",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -500,7 +500,7 @@ let roadmapFrontEndData = {
         {
           id: "3706f0ee-2bdc-4ccb-90b7-326aa7eb49a0",
           name: "Integration Testing",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -508,7 +508,7 @@ let roadmapFrontEndData = {
         {
           id: "c2e7d966-0066-48a9-87a8-85e892b2980e",
           name: "Functional Testing",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -516,7 +516,7 @@ let roadmapFrontEndData = {
         {
           id: "856eeb0f-97bd-4240-8943-edbc4da34e2b",
           name: "Jest",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -524,7 +524,7 @@ let roadmapFrontEndData = {
         {
           id: "a0901620-515e-4e20-93d1-051b1252448a",
           name: "Enzyme",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -532,7 +532,7 @@ let roadmapFrontEndData = {
         {
           id: "f3bdfa84-8191-48dc-b3b0-8e8460c1ab8f",
           name: "Cypress",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -540,7 +540,7 @@ let roadmapFrontEndData = {
         {
           id: "f3erty84-4e20-90dc-b3u7-8e4189c1gf0f",
           name: "Protractor - For Angular",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -554,7 +554,7 @@ let roadmapFrontEndData = {
         {
           id: "80801795-290b-4492-9605-f608389ff6cc",
           name: "Storage",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -562,7 +562,7 @@ let roadmapFrontEndData = {
         {
           id: "29f86552-0ab2-468e-92fc-f6d695e71a73",
           name: "Web Sockets",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -570,7 +570,7 @@ let roadmapFrontEndData = {
         {
           id: "71214a80-2cf8-472a-89c6-1120a5d169cb",
           name: "Service Workers",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -578,7 +578,7 @@ let roadmapFrontEndData = {
         {
           id: "15fa7d8f-bb0c-4184-94d0-a5b2b35790fb",
           name: "PRPL Pattern",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -586,7 +586,7 @@ let roadmapFrontEndData = {
         {
           id: "283743c4-24c3-411e-9651-5d1545d3b43c",
           name: "RAIL Model",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -594,7 +594,7 @@ let roadmapFrontEndData = {
         {
           id: "a365b55f-b193-4fa4-b28e-902b1d913b3c",
           name: "Performance Metrics",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -602,7 +602,7 @@ let roadmapFrontEndData = {
         {
           id: "0c458ad5-8ddf-4ab9-8f8e-b75e90cbaa7a",
           name: "Using Light House",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -610,7 +610,7 @@ let roadmapFrontEndData = {
         {
           id: "01535c5e-8ace-4142-aa79-396553f03ec8",
           name: "Using DevTools",
-          level: 1,
+          level: 2,
           subtopics: [],
           resources: [],
           examples: []
@@ -624,7 +624,7 @@ let roadmapFrontEndData = {
         {
           id: "20c9df65-4899-4e3c-8a2e-50b2002a700e",
           name: "TypeScript",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -638,12 +638,12 @@ let roadmapFrontEndData = {
         {
           id: "01aa8681-2867-4911-a61a-87e5e4c1e2c2",
           name: "React.js",
-          level: 1,
+          level: 2,
           subtopics: [
             {
               id: "3f96f30b-6218-4c42-9977-dd5e431070fa",
               name: "Next.js",
-              level: 1,
+              level: 0,
               subtopics: [],
               resources: [],
               examples: []
@@ -655,12 +655,12 @@ let roadmapFrontEndData = {
         {
           id: "8e6ef5a3-fbf7-4c23-8fc2-2021eb449a1a",
           name: "Angular",
-          level: 1,
+          level: 2,
           subtopics: [
             {
               id: "5c0fe28f-4fc0-4c24-82bf-a96f80e7fb5d",
               name: "Universal",
-              level: 1,
+              level: 0,
               subtopics: [],
               resources: [],
               examples: []
@@ -678,7 +678,7 @@ let roadmapFrontEndData = {
         {
           id: "8c8fc242-667d-47bc-b8f3-4ba8b1398fa1",
           name: "GatsbyJS",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -692,7 +692,7 @@ let roadmapFrontEndData = {
         {
           id: "1fa8c391-7702-4ae5-a107-b961a248ab38",
           name: "Electron",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -706,7 +706,7 @@ let roadmapFrontEndData = {
         {
           id: "f1fa51bf-711f-445f-9b78-ab52d18d4d46",
           name: "React Native",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
@@ -720,7 +720,7 @@ let roadmapFrontEndData = {
         {
           id: "a5914a69-f9c3-4ad4-9180-d7d2d70e682a",
           name: "Web Assembly",
-          level: 1,
+          level: 0,
           subtopics: [],
           resources: [],
           examples: []
