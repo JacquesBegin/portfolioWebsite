@@ -124,8 +124,7 @@ function buildLevelLegend() {
   legendList.className = "levelLegendList";
   legendContent.forEach((item) => {
     let legendItem = document.createElement("li");
-    let levelSelector = buildLevelSelector(item);
-    legendItem.appendChild(levelSelector);
+    legendItem.appendChild(buildLevelSelector(item));
     legendItem.innerHTML += ` = ${item.description}`;
     legendList.appendChild(legendItem);
   });
