@@ -60,8 +60,7 @@ a:visited {
 }
 
 .levelSelectorLegend {
-  top: 1em;
-  background-color: blue;
+  float: left;
 }
 
 .levelSelector {
