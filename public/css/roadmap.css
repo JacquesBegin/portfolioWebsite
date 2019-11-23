@@ -40,11 +40,11 @@ a:visited {
   width: 70%;
 }
 
-ul {
+.topicSection ul {
   padding-left: 2em;
 }
 
-li {
+.topicSection li {
   position: relative;
   line-height: 2em;
 }
@@ -53,6 +53,15 @@ li {
   border-bottom: 1px solid #000000;
   padding-left: 1em;
   background-color: #ecf4ff;
+}
+
+.levelLegendList {
+  list-style-type: none;
+}
+
+.levelSelectorLegend {
+  top: 1em;
+  background-color: blue;
 }
 
 .levelSelector {
