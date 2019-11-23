@@ -1,10 +1,12 @@
 function buildLevelSelector(skillData) {
   let levelSelector = document.createElement("div");
-  levelSelector.id = skillData.id;
-  levelSelector.className = "levelSelector";
+  if (skillData.legend) {
+    levelSelector.className = "levelSelectorLegend";
+  } else {
+    levelSelector.className = "levelSelector";
+  }
   for (let x = 1; x < 6; x++) {
     let level = document.createElement("div");
-    level.id = `${skillData.id}level${x}`;
     level.className = "level";
     if (x <= skillData.level) {
       level.style.backgroundColor = "#00ffbf";
@@ -84,7 +86,53 @@ function buildRoadmapButtons() {
   }
 }
 
+function buildLevelLegend() {
+  let legendContent = [
+    {
+      "legend": true,
+      "level": 0,
+      "description": "Unfamiliar/No Previous Knowledge"
+    },
+    {
+      "legend": true,
+      "level": 1,
+      "description": "Understands Purpose/Basic Use Cases"
+    },
+    {
+      "legend": true,
+      "level": 2,
+      "description": "Can Use Technology/Conpects At A Basic Level"
+    },
+    {
+      "legend": true,
+      "level": 3,
+      "description": "Comfortable With Technology While Using References"
+    },
+    {
+      "legend": true,
+      "level": 4,
+      "description": "Strong Use of Technology/Concepts With Limited Reference Use"
+    },
+    {
+      "legend": true,
+      "level": 5,
+      "description": "Capable of Using/Explaining Without Using References"
+    }
+  ];
+  let legendDiv = document.getElementById("legend");
+  let legendList = document.createElement("ul");
+  legendList.className = "levelLegendList";
+  legendContent.forEach((item) => {
+    let legendItem = document.createElement("li");
+    let levelSelector = buildLevelSelector(item);
+    legendItem.appendChild(levelSelector);
+    legendItem.innerHTML += ` = ${item.description}`;
+    legendList.appendChild(legendItem);
+  });
+  legendDiv.appendChild(legendList);
+}
 
+buildLevelLegend();
 buildRoadmapButtons();
 buildRoadmap(roadmapFrontEndData);
 
