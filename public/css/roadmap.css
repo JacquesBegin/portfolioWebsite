@@ -1,5 +1,5 @@
 body {
-  margin: 1em;
+  /* margin: 1em; */
   font-size: 1.25em;
 }
 
@@ -11,22 +11,8 @@ a:visited {
   color: #000000;
 }
 
-#roadmapPanels {
-  display: flex;
-}
-
-.roadmapPanel {
-  flex: 1;
-  height: 2em;
-  line-height: 2em;
-  text-align: center;
-  background-color: #ffffff;
-  color: #000000;
-  text-decoration: underline;
-  text-transform: uppercase;
-  user-select: none;
-  cursor: pointer;
-  border: 0.1em solid #000000;
+#introContent {
+  margin: 1em;
 }
 
 #roadmaps {
@@ -85,8 +71,6 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  margin-left: -2em;
-  
 }
 
 #footerContent {
@@ -101,3 +85,57 @@ footer {
   border-top: 1px solid #000000;
 }
 
+@media only screen and (min-width: 805px) {
+
+  #roadmapPanels {
+    display: flex;
+    margin: 1em;
+  }
+  
+  .roadmapPanel {
+    flex: 1;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: underline;
+    text-transform: uppercase;
+    user-select: none;
+    cursor: pointer;
+    border: 0.1em solid #000000;
+  }
+
+}
+
+@media only screen and (max-width: 804px) {
+  body {
+    margin: 0;
+  }
+
+  .levelLegendList {
+    clear: both;
+  }
+
+  #roadmapPanels {
+    display: flex;
+    margin: 0;
+
+  }
+
+  .roadmapPanel {
+    /* float: left; */
+    flex: 1;
+    line-height: 2em;
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: underline;
+    text-transform: uppercase;
+    user-select: none;
+    cursor: pointer;
+    border: 0.1em solid #000000;
+  }
+
+
+}
