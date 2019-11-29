@@ -512,7 +512,10 @@ body {
     box-shadow: none; } }
 @media only screen and (max-width: 500px) {
   .home__tagline__content {
-    padding: 2rem; } }
+    padding: 2rem; }
+
+  .home__tagline__content__quote__clover {
+    display: none; } }
 .home__skills {
   padding: 5rem 5rem 0 5rem; }
 
