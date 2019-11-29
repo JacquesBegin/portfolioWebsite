@@ -10,7 +10,5 @@ function removeTitleHeader() {
       // title.style.display = "block";
       title.style.fontSize = "1.1em";
     }
-  } else {
-    title.style.fontSize = "1.1em";
   }
 }
