@@ -322,7 +322,7 @@ body {
   height: 100px;
   overflow: hidden;
   background-color: #ffffff;
-  border-bottom: 0.5em red solid; }
+  border-bottom: 0.5em #3d70b2 solid; }
 
 .navbar__nameContent {
   float: left; }
