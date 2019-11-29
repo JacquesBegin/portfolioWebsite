@@ -421,7 +421,8 @@ body {
     width: 100;
     text-align: center;
     font-size: 1.2em;
-    float: none; }
+    float: none;
+    transition: 0.5s; }
 
   .navbar__allLinks {
     width: 100%; }

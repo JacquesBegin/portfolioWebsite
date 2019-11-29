@@ -1,6 +1,6 @@
-window.onscroll = function() {shrinkHeader()};
+window.onscroll = function() {removeTitleHeader()};
 
-function shrinkHeader() {
+function removeTitleHeader() {
   let title = document.getElementsByClassName("navbar__nameContent__title")[0];
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     title.style.display = "none";
