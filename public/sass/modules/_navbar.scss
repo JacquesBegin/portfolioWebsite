@@ -6,7 +6,9 @@
   height: 100px;
   overflow: hidden;
   background-color: $white;
-  border-bottom: 0.5em $darkBlue solid;
+  // border-bottom: 0.5em $darkBlue solid;
+  border-bottom: 0.5em red solid;
+
 }
 
 .navbar__nameContent {
