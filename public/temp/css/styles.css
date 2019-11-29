@@ -410,6 +410,12 @@ body {
     height: auto;
     padding: 15px 20px;
     vertical-align: middle; } }
+@media only screen and (max-width: 500px) {
+  .navbar__nameContent__name {
+    margin: 10px 0 0 0;
+    text-align: center;
+    font-size: 3em;
+    width: 100%; } }
 .home {
   display: block;
   position: relative; }
