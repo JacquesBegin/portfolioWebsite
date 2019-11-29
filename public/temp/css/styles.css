@@ -488,7 +488,8 @@ body {
 @media only screen and (max-width: 500px) {
   .home__intro__content {
     padding: 2rem;
-    padding-top: 0.5rem; }
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; }
 
   .home__intro__content__name {
     display: none; }

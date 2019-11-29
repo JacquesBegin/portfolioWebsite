@@ -51,6 +51,7 @@
   .home__intro__content {
     @include bodyPanelContentMax500;
     padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .home__intro__content__name {
