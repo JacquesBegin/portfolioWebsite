@@ -476,7 +476,10 @@ body {
     box-shadow: none; } }
 @media only screen and (max-width: 500px) {
   .home__intro__content {
-    padding: 2rem; } }
+    padding: 2rem; }
+
+  .home__intro__content__name {
+    display: none; } }
 .home__tagline {
   padding: 5rem 5rem 0 5rem; }
 
