@@ -412,10 +412,11 @@ body {
     vertical-align: middle; } }
 @media only screen and (max-width: 500px) {
   .navbar__nameContent__name {
-    margin: 10px 0 0 0;
+    margin: 5px 0 0 0;
     text-align: center;
     font-size: 3em;
-    width: 100%; }
+    width: 100%;
+    transition: 0.5s; }
 
   .navbar__nameContent__title {
     width: 100;
