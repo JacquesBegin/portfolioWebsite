@@ -12,5 +12,8 @@ body {
 @media only screen and (max-width: 701px) {
   .top-of-page-spacer {
     height: 49px; } }
+@media only screen and (max-width: 500px) {
+  .top-of-page-spacer {
+    height: 127px; } }
 
 /*# sourceMappingURL=body.css.map */
