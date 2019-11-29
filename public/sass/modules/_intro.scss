@@ -50,6 +50,7 @@
 
   .home__intro__content {
     @include bodyPanelContentMax500;
+    padding-top: 0.5rem;
   }
 
   .home__intro__content__name {
@@ -58,6 +59,21 @@
 
   .home__intro__content__title {
     display: none;
+  }
+
+  .home__intro__content__icons {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  
+  .home__intro__content__icons__i {
+    margin-top: 0;
+    margin-right: 1rem;
+  }
+  
+  .home__intro__content__icons__i-last {
+    margin-top: 0;
+    margin-right: 0;
   }
   
 }
