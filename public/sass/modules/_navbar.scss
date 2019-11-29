@@ -145,4 +145,16 @@
     float: none;
   }
 
+  .navbar__allLinks {
+    width: 100%;
+  }
+
+  .navbar__allLinks__link {
+    // flex-grow: 1;
+    // overflow: hidden;
+    // height: auto;
+    padding: 5px;
+    // vertical-align: middle;
+  }
+
 }

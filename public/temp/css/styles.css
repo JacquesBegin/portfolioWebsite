@@ -421,7 +421,13 @@ body {
     width: 100;
     text-align: center;
     font-size: 1.2em;
-    float: none; } }
+    float: none; }
+
+  .navbar__allLinks {
+    width: 100%; }
+
+  .navbar__allLinks__link {
+    padding: 5px; } }
 .home {
   display: block;
   position: relative; }
