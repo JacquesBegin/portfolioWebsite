@@ -322,7 +322,7 @@ body {
   height: 100px;
   overflow: hidden;
   background-color: #ffffff;
-  border-bottom: 0.5em #3d70b2 solid; }
+  border-bottom: 0.5em red solid; }
 
 .navbar__nameContent {
   float: left; }
@@ -437,10 +437,14 @@ body {
   .home {
     margin-top: -102px;
     padding-top: 102px; } }
-@media only screen and (max-width: 701px) {
+@media only screen and (min-width: 501px) {
   .home {
     margin-top: -50px;
     padding-top: 50px; } }
+@media only screen and (max-width: 500px) {
+  .home {
+    margin-top: -130px;
+    padding-top: 130px; } }
 .home__intro {
   padding: 5rem 5rem 0 5rem; }
 

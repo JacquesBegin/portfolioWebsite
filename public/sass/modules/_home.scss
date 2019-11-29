@@ -13,11 +13,20 @@
  
 }
 
-@media only screen and (max-width: 701px) {
+@media only screen and (min-width: 501px) {
 
   .home {
     margin-top: -50px; //keeps the content below the navbar when anchor linking
     padding-top: 50px; //keeps the content below the navbar when anchor linking
+  }
+ 
+}
+
+@media only screen and (max-width: 500px) {
+
+  .home {
+    margin-top: -130px; //keeps the content below the navbar when anchor linking
+    padding-top: 130px; //keeps the content below the navbar when anchor linking
   }
  
 }
