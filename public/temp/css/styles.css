@@ -415,7 +415,13 @@ body {
     margin: 10px 0 0 0;
     text-align: center;
     font-size: 3em;
-    width: 100%; } }
+    width: 100%; }
+
+  .navbar__nameContent__title {
+    width: 100;
+    text-align: center;
+    font-size: 1.2em;
+    float: none; } }
 .home {
   display: block;
   position: relative; }
