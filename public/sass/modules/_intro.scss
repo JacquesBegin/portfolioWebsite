@@ -41,6 +41,7 @@
 
   .home__intro__content {
     @include bodyPanelContentMax700;
+    padding-bottom: 2rem;
   }
   
 }

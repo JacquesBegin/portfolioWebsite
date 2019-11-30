@@ -485,7 +485,8 @@ body {
     padding: 5rem;
     border: none;
     border-bottom: #ffffff 1px solid;
-    box-shadow: none; } }
+    box-shadow: none;
+    padding-bottom: 2rem; } }
 @media only screen and (max-width: 500px) {
   .home__intro__content {
     padding: 2rem;
@@ -535,7 +536,9 @@ body {
     padding: 5rem;
     border: none;
     border-bottom: #ffffff 1px solid;
-    box-shadow: none; } }
+    box-shadow: none;
+    padding-top: 2rem;
+    padding-bottom: 2rem; } }
 @media only screen and (max-width: 500px) {
   .home__tagline__content {
     padding: 2rem; }
