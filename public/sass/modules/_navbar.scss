@@ -30,7 +30,7 @@
 }
 
 .navbar__nameContent__title {
-  position: relative;
+  // position: relative;
   color: $black;
   font-weight: normal;
 }
@@ -137,6 +137,7 @@
     margin: 5px 0 0 0;
     text-align: center;
     font-size: 3em;
+    float: none;
     width: 100%;
     transition: 0.5s;
   }
@@ -146,6 +147,7 @@
     text-align: center;
     font-size: 1.1em;
     float: none;
+    // border: 1px $darkBlue solid;
     transition: 0.5s;
   }
 

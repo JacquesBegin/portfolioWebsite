@@ -340,7 +340,6 @@ body {
   color: #000000; }
 
 .navbar__nameContent__title {
-  position: relative;
   color: #000000;
   font-weight: normal; }
 
@@ -415,6 +414,7 @@ body {
     margin: 5px 0 0 0;
     text-align: center;
     font-size: 3em;
+    float: none;
     width: 100%;
     transition: 0.5s; }
 
