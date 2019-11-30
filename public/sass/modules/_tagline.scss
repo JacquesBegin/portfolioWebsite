@@ -27,6 +27,8 @@
 
   .home__tagline__content {
     @include bodyPanelContentMax700;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   
 }
