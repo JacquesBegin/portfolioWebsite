@@ -67,13 +67,14 @@
   }
 
   .contact__collection__content__icons__section {
-    display: block;
-    margin: 0 0 2rem 0;
+    // display: flex;
+    // flex-direction: row;
+    // margin: 0 1rem 0 0;
 
   }
   
   .contact__collection__content__icons__section-last {
-    display: block;
+    // flex: 1;
   }
   
 }
