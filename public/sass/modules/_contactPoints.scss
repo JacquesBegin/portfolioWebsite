@@ -49,6 +49,8 @@
 
   .contact__collection__content {
     @include bodyPanelContentMax700;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .contact__collection__content__icons__section {

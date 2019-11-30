@@ -790,7 +790,9 @@ body {
     padding: 5rem;
     border: none;
     border-bottom: #ffffff 1px solid;
-    box-shadow: none; }
+    box-shadow: none;
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
 
   .contact__collection__content__icons__section {
     margin-right: 2rem; } }
