@@ -1,8 +1,7 @@
 body {
   box-sizing: border-box;
   font-family: georgia, arial, sans-serif;
-  color: #000000;
-  font-size: 1em; }
+  color: #000000; }
 
 .warning {
   color: #ff0000; }
@@ -14,6 +13,9 @@ body {
   .top-of-page-spacer {
     height: 49px; } }
 @media only screen and (max-width: 500px) {
+  body {
+    font-size: 1em; }
+
   .top-of-page-spacer {
     height: 127px; } }
 
