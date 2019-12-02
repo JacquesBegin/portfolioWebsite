@@ -49,6 +49,10 @@
 
 @media only screen and (max-width: 500px) {
 
+  .home__intro {
+    margin-top: 50px;
+  }
+
   .home__intro__content {
     @include bodyPanelContentMax500;
     padding-top: 0.5rem;
@@ -60,11 +64,12 @@
   }
 
   .home__intro__content__title {
-    display: none;
+    font-size: 1.5em;
+    padding-bottom: .25em;
+    border-bottom: 1px $darkBlue solid;
   }
 
   .home__intro__content__icons {
-    margin-top: 0;
     font-size: 1.5rem;
   }
   
