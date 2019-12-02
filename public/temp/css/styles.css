@@ -767,6 +767,9 @@ body {
   color: #000000;
   text-decoration: none; }
 
+.contact__collection__content__icons__i {
+  font-size: 5rem; }
+
 @media only screen and (max-width: 700px) {
   .contact__collection {
     padding: 0; }
