@@ -554,8 +554,7 @@ body {
   text-align: center;
   border: #ffffff 1px solid;
   box-shadow: 1px 1px 1px #3d70b2;
-  padding: 3rem;
-  font-size: 1.5em; }
+  padding: 3rem; }
 
 .home__skills__content__hardskills {
   margin-bottom: 4rem; }
@@ -573,7 +572,6 @@ body {
 
 .home__skills__content__hardskills__language-list__item {
   display: inline-block;
-  font-size: 1.4rem;
   padding: 1rem; }
 
 .home__skills__content__hardskills__hardskills-list-header {
@@ -585,7 +583,6 @@ body {
 
 .home__skills__content__hardskills__hardskills-list__item {
   display: inline-block;
-  font-size: 1.4rem;
   padding: 1rem; }
 
 .home__skills__content__softskills__header {
