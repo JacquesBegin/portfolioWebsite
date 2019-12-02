@@ -300,7 +300,7 @@ template {
 body {
   box-sizing: border-box;
   font-family: georgia, arial, sans-serif;
-  color: #000000; }
+  color: #505050; }
 
 .warning {
   color: #ff0000; }
@@ -343,11 +343,11 @@ body {
   color: #000000; }
 
 .navbar__nameContent__title {
-  color: #000000;
+  color: #505050;
   font-weight: normal; }
 
 .navbar__allLinks__link {
-  color: #000000;
+  color: #505050;
   text-align: center;
   font-family: helvetica, sans-serif;
   display: block;
@@ -465,6 +465,7 @@ body {
   font-weight: 100; }
 
 .home__intro__content__icons {
+  color: #000000;
   margin-top: 2rem;
   font-size: 3rem; }
 
@@ -501,7 +502,8 @@ body {
   .home__intro__content__title {
     font-size: 1.5em;
     padding-bottom: .25em;
-    border-bottom: 1px #3d70b2 solid; }
+    border-bottom: 1px #3d70b2 solid;
+    color: #000000; }
 
   .home__intro__content__icons {
     font-size: 1.5rem; }
@@ -563,6 +565,7 @@ body {
   margin-bottom: 2rem; }
 
 .home__skills__content__hardskills__language-list-header {
+  color: #000000;
   text-decoration: underline; }
 
 .home__skills__content__hardskills__language-list {
@@ -575,6 +578,7 @@ body {
   padding: 1rem; }
 
 .home__skills__content__hardskills__hardskills-list-header {
+  color: #000000;
   text-decoration: underline; }
 
 .home__skills__content__hardskills__hardskills-list {
@@ -589,6 +593,7 @@ body {
   margin-bottom: 2rem; }
 
 .home__skills__content__softskills__language-list-header {
+  color: #000000;
   text-decoration: underline; }
 
 .home__skills__content__softskills__softskills-list {
@@ -655,6 +660,7 @@ body {
   padding: 3rem; }
 
 .portfolio__collection__content__title {
+  color: #000000;
   text-align: left;
   margin-top: 0; }
 
@@ -678,12 +684,12 @@ body {
   margin-bottom: .5rem; }
 
 .portfolio__collection__content__item__link-github {
-  color: #000000;
+  color: #505050;
   text-align: center;
   font-family: helvetica, sans-serif;
   padding: 10px 10px;
   text-decoration: none;
-  box-shadow: 1px 1px 1px #000000;
+  box-shadow: 1px 1px 1px #505050;
   display: inline-block;
   margin: .5rem .5rem 0 .5rem; }
 
@@ -692,12 +698,12 @@ body {
   color: #5596e6; }
 
 .portfolio__collection__content__item__link-site {
-  color: #000000;
+  color: #505050;
   text-align: center;
   font-family: helvetica, sans-serif;
   padding: 10px 10px;
   text-decoration: none;
-  box-shadow: 1px 1px 1px #000000;
+  box-shadow: 1px 1px 1px #505050;
   display: inline-block;
   margin: .5rem .5rem 0 .5rem; }
 
@@ -754,6 +760,7 @@ body {
   padding: 3rem; }
 
 .contact__collection__content__title {
+  color: #000000;
   text-align: left;
   margin-top: 0; }
 

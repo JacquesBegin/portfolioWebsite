@@ -18,6 +18,7 @@
 }
 
 .home__intro__content__icons {
+  color: $black;
   margin-top: 2rem;
   font-size: 3rem;
 }
@@ -67,6 +68,7 @@
     font-size: 1.5em;
     padding-bottom: .25em;
     border-bottom: 1px $darkBlue solid;
+    color: $black;
   }
 
   .home__intro__content__icons {
