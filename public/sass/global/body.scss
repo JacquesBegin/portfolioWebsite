@@ -2,11 +2,9 @@
 @import "./colors";
 
 body {
-  // background-color: $darkBlue;
   box-sizing: border-box;
   font-family: $mainFont;
   color: $black;
-  font-size: 1em;
 }
 
 .warning {
@@ -30,6 +28,10 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
+
+  body {
+    font-size: 1em;
+  }
 
   .top-of-page-spacer {
     height: 127px;
