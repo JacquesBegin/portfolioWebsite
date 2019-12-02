@@ -664,20 +664,16 @@ body {
   box-shadow: 1px 1px 1px #3d70b2; }
 
 .portfolio__collection__content__item__name {
-  font-size: 2rem;
   margin-bottom: .5rem; }
 
 .portfolio__collection__content__item__tagline {
-  font-size: 1.5rem;
   margin-bottom: .5rem; }
 
 .portfolio__collection__content__item__technologies {
-  font-size: 1.5rem;
   font-style: italic;
   margin-bottom: .5rem; }
 
 .portfolio__collection__content__item__description {
-  font-size: 1.5rem;
   margin-bottom: .5rem; }
 
 .portfolio__collection__content__item__link-github {
