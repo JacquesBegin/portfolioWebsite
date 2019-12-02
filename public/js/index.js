@@ -1,8 +1,8 @@
-window.onscroll = function() {removeTitleHeader()};
+// window.onscroll = function() {removeTitleHeader()};
 
-window.addEventListener("resize", () => {
-  console.log("hi");
-});
+// window.addEventListener("resize", () => {
+//   console.log("hi");
+// });
 
 function removeTitleHeader() {
   let name = document.getElementsByClassName("navbar__nameContent__name")[0];
