@@ -143,12 +143,13 @@
   }
 
   .navbar__nameContent__title {
-    width: 100;
-    text-align: center;
-    font-size: 1.1em;
-    float: none;
-    // border: 1px $darkBlue solid;
-    transition: 0.5s;
+    // width: 100;
+    // text-align: center;
+    // font-size: 1.1em;
+    // float: none;
+    // // border: 1px $darkBlue solid;
+    // transition: 0.5s;
+    display: none;
   }
 
   .navbar__allLinks {

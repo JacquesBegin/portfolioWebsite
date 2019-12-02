@@ -316,7 +316,7 @@ body {
     font-size: 1em; }
 
   .top-of-page-spacer {
-    height: 127px; } }
+    height: 100px; } }
 .navbar {
   z-index: 1000;
   position: fixed;
@@ -422,11 +422,7 @@ body {
     transition: 0.5s; }
 
   .navbar__nameContent__title {
-    width: 100;
-    text-align: center;
-    font-size: 1.1em;
-    float: none;
-    transition: 0.5s; }
+    display: none; }
 
   .navbar__allLinks {
     width: 100%; }
@@ -491,6 +487,9 @@ body {
     box-shadow: none;
     padding-bottom: 2rem; } }
 @media only screen and (max-width: 500px) {
+  .home__intro {
+    margin-top: 50px; }
+
   .home__intro__content {
     padding: 2rem;
     padding-top: 0.5rem;
@@ -500,10 +499,11 @@ body {
     display: none; }
 
   .home__intro__content__title {
-    display: none; }
+    font-size: 1.5em;
+    padding-bottom: .25em;
+    border-bottom: 1px #3d70b2 solid; }
 
   .home__intro__content__icons {
-    margin-top: 0;
     font-size: 1.5rem; }
 
   .home__intro__content__icons__i {
