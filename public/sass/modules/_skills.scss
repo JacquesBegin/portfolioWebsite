@@ -89,6 +89,11 @@
     font-size: 1em;
   }
 
+  .home__skills__content__hardskills {
+    margin-bottom: 3rem;
+    border-bottom: 1px $darkBlue solid;
+  }
+
   .home__skills__content__hardskills__language-list__item {
     // display: block;
     padding: 0.5em;

@@ -615,6 +615,10 @@ body {
     padding: 2rem;
     font-size: 1em; }
 
+  .home__skills__content__hardskills {
+    margin-bottom: 3rem;
+    border-bottom: 1px #3d70b2 solid; }
+
   .home__skills__content__hardskills__language-list__item {
     padding: 0.5em; }
 
