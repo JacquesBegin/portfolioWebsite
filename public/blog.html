@@ -9,55 +9,55 @@
   </head>
   <body>
     <article>
-        10/19/2019
-        While searching the endless newsfeed about all things tech related, I came across a tutorial about creating a command line application (Credit goes to David Neal https://developer.okta.com/blog/2019/06/18/command-line-app-with-nodejs). This sparked my interest about learning the command line a bit better.
-        
-        I have seen great features in the command line such as; text editing, programming language interpreters, and version control. But how does it work? How does the system know what to do when a certain command is entered?
-        
-        A quick answer is; inputting a command tells the system to run particular scripts or programs that perform tasks. Sometimes the task returns data, other times it performs actions behind the scene. There’s really nothing related to an operating system that can’t be done in the command line.
-        
-        I decided to go ahead with the tutorial. I hope to get a new perspective about the command line and learn some of the behind the scenes features it offers.        
+      10/19/2019
+      While searching the endless newsfeed about all things tech related, I came across a tutorial about creating a command line application (Credit goes to David Neal https://developer.okta.com/blog/2019/06/18/command-line-app-with-nodejs). This sparked my interest about learning the command line a bit better.
+      
+      I have seen great features in the command line such as; text editing, programming language interpreters, and version control. But how does it work? How does the system know what to do when a certain command is entered?
+      
+      A quick answer is; inputting a command tells the system to run particular scripts or programs that perform tasks. Sometimes the task returns data, other times it performs actions behind the scene. There’s really nothing related to an operating system that can’t be done in the command line.
+      
+      I decided to go ahead with the tutorial. I hope to get a new perspective about the command line and learn some of the behind the scenes features it offers.        
     </article>
     <hr/>
     <article>
-        10/20/2019
-        The command line application tutorial uses Node.js to help build the features. After creating an empty file, the first instruction is to add a “shebang” which is necessary for the operating system to properly run the Node.js script. I had never heard of a “shebang” before so I did some research about that and found that when the interpreter reads the shebang it understands to run the program.
+      10/20/2019
+      The command line application tutorial uses Node.js to help build the features. After creating an empty file, the first instruction is to add a “shebang” which is necessary for the operating system to properly run the Node.js script. I had never heard of a “shebang” before so I did some research about that and found that when the interpreter reads the shebang it understands to run the program.
 
-        After modifying the package.json and adding a console.log to test the script, I installed the script using the same methodology as installing an npm package. Now, by simply typing the word “hello” in the terminal the script runs and outputs the console.log (which is “hello”). The word hello starts the script because it is setup that way in the package.json.
+      After modifying the package.json and adding a console.log to test the script, I installed the script using the same methodology as installing an npm package. Now, by simply typing the word “hello” in the terminal the script runs and outputs the console.log (which is “hello”). The word hello starts the script because it is setup that way in the package.json.
 
-        The most fun features added to the project today were changing the terminal output by using packages that modify color and formatting. Now when running the script, the word hello has a border, background color, and different font color! I didn’t realize the terminal could be modified this way :)
+      The most fun features added to the project today were changing the terminal output by using packages that modify color and formatting. Now when running the script, the word hello has a border, background color, and different font color! I didn’t realize the terminal could be modified this way :)
 
     </article>
     <hr/>
     <article>
-        10/21/2019
-        Today I continued to work on the command line application using Node.js. I implemented support for command line arguments by using the yargs package. Since I first started learning to use the command line, I have wondered how the system knows what to do when an argument in passed. 
-        
-        Passing arguments with commands is an interesting concept. It seems so simple to control a program with a few extra words or flags. But what really goes on behind the scenes?
-        
-        Well, to fully answer this question would go well beyond the scope of this article.
-        
-        But a brief insight is this…
-        
-        Each command line application or script could accept any number of arguments depending on the needs or features of that program. Adding arguments could provide information about a program, begin a series of tests on code the user has written, or call additional scripts. There are so many possibilities it would be difficult to list them all here (and frankly, I do not know them all myself…and that’s one reason why I decided to build a command line application in the first place!)
-        
-        I look forward to continuing this project and learning more ways for how the command line can improve my technical prowess!        
+      10/21/2019
+      Today I continued to work on the command line application using Node.js. I implemented support for command line arguments by using the yargs package. Since I first started learning to use the command line, I have wondered how the system knows what to do when an argument in passed. 
+      
+      Passing arguments with commands is an interesting concept. It seems so simple to control a program with a few extra words or flags. But what really goes on behind the scenes?
+      
+      Well, to fully answer this question would go well beyond the scope of this article.
+      
+      But a brief insight is this…
+      
+      Each command line application or script could accept any number of arguments depending on the needs or features of that program. Adding arguments could provide information about a program, begin a series of tests on code the user has written, or call additional scripts. There are so many possibilities it would be difficult to list them all here (and frankly, I do not know them all myself…and that’s one reason why I decided to build a command line application in the first place!)
+      
+      I look forward to continuing this project and learning more ways for how the command line can improve my technical prowess!        
     </article>
     <hr />
     <article>
-        10/22/2019
-        The last day of working on the command line application introduced interacting with API’s. To test sending and receiving information with an API, we incorporated the axios package and used a random joke API. 
-        
-        Axios makes an http get request to the joke API and uses a promise to print out the joke once the response is received.
-        
-        To add another level of functionality, we added a command line argument to accept a string that could be used to search the API for certain types of jokes. In the required URL for accessing the API, we added a search query to the end. If the string is found in a joke, that joke is returned, else a not found message is returned.
-        
-        Working on this project was very cool and gave me a nice introduction to creating a command line application. Next step is to research why I would want to create my own command line application and then make it happen!
+      10/22/2019
+      The last day of working on the command line application introduced interacting with API’s. To test sending and receiving information with an API, we incorporated the axios package and used a random joke API. 
+      
+      Axios makes an http get request to the joke API and uses a promise to print out the joke once the response is received.
+      
+      To add another level of functionality, we added a command line argument to accept a string that could be used to search the API for certain types of jokes. In the required URL for accessing the API, we added a search query to the end. If the string is found in a joke, that joke is returned, else a not found message is returned.
+      
+      Working on this project was very cool and gave me a nice introduction to creating a command line application. Next step is to research why I would want to create my own command line application and then make it happen!
     </article>
     <hr/>
     <article>
-        11/15/2019
-        Created a file to manipulate the json by adding unique id's to every topic and subtopic. The function uses recursive functionality to search subtopics within subtopics. As I was creating the json data for the roadmap, I realized that it was possible for topics to have subtopics and that those subtopics themselves could have subtopics. So as the function to add uuid's runs, it checks for topics and assigns a uuid. Then it checks for subtopics, and if found calls an internally defined function to assign a uuid and check if that subtopic has subtopics. If it does the internal function is called for each subtopic and the cycle repeats until all nested subtopics have been assigned a uuid.
+      11/15/2019
+      Created a file to manipulate the json by adding unique id's to every topic and subtopic. The function uses recursive functionality to search subtopics within subtopics. As I was creating the json data for the roadmap, I realized that it was possible for topics to have subtopics and that those subtopics themselves could have subtopics. So as the function to add uuid's runs, it checks for topics and assigns a uuid. Then it checks for subtopics, and if found calls an internally defined function to assign a uuid and check if that subtopic has subtopics. If it does the internal function is called for each subtopic and the cycle repeats until all nested subtopics have been assigned a uuid.
     </article>
     <hr/>
     <article>
