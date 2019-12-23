@@ -92,5 +92,35 @@
       </ol>
     </article>
     <hr/>
+    <article>
+      12/23/2019
+      Installed a third party package from npm, required it into my project, and used it successfully.
+      <pre>
+        <code>
+          // "./app.js"
+
+          const validator = require("validator");
+
+          console.log(validator.isURL("htt://google.com"));
+
+          // returns false
+        </code>
+      </pre>
+    </article>
+    <article>
+      12/23/2019
+      Practiced installing another third party package (chalk), loading it into the app, and using it. The Chalk package allows for coloring text displayed in the terminal. This package is very helpful when printing messages to the terminal that needs extra focus. It could be used to report an error or warning, or display success messages when completing tasks.
+      <pre>
+        <code>
+          // "./app.js"
+
+          const chalk = require("chalk");
+
+          console.log(chalk.green("Success!"));
+
+        </code>
+      </pre>
+    </article>
+    <hr/>
   </body>
 </html>
