@@ -107,6 +107,7 @@
         </code>
       </pre>
     </article>
+    <hr/>
     <article>
       12/23/2019
       Practiced installing another third party package (chalk), loading it into the app, and using it. The Chalk package allows for coloring text displayed in the terminal. This package is very helpful when printing messages to the terminal that needs extra focus. It could be used to report an error or warning, or display success messages when completing tasks.
@@ -121,12 +122,35 @@
         </code>
       </pre>
     </article>
+    <hr/>
     <article>
       12/23/2019
       Covered installing global packages and installed nodemon. Nodemon is a tool to restart the app server when a change has been detected in the app.
       <pre>
         <code>
           npm i -g nodemon
+        </code>
+      </pre>
+    </article>
+    <hr/>
+    <article>
+      12/24/2019
+      Working with process.argv. argv is a list of arguments supplied through the command line. This is a way to take user input to modify or customize a node application.
+      <pre>
+        <code>
+          
+          const command = process.argv[2];
+
+          switch(command) {
+            case "add":
+            console.log("Adding note...");
+            break;
+
+            case "remove":
+            console.log("Removing note...");
+            break;
+            
+          }
         </code>
       </pre>
     </article>
